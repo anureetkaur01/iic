@@ -1,0 +1,501 @@
+internship_id,title,sector,description,required_skills,eligibility,location,remote_allowed,posted_date,deadline,offered_at,accepted
+I00001,Finance Analyst Intern,Healthcare,Support HR operations and recruitment,"SQL, Data Science",Any Year,Delhi,True,2025-03-12,2025-03-29,27,14
+I00002,HR Intern,Finance,Support HR operations and recruitment,"ML, Python, React",Final Year,Kolkata,False,2025-06-05,2025-07-23,80,28
+I00003,HR Intern,IT/AI,Assist in financial reporting and analysis,"Python, SQL, HTML",CGPA >= 7.5,Bangalore,True,2025-05-12,2025-05-28,47,21
+I00004,Web Dev Intern,Finance,Support HR operations and recruitment,"AI, Data Science, Java, ML",Any Year,Chennai,True,2025-05-17,2025-06-11,70,47
+I00005,Finance Analyst Intern,Education,Work on ML models and data pipelines,"Java, Data Science, React",Final Year,Delhi,False,2025-03-02,2025-04-11,60,45
+I00006,Web Dev Intern,Education,Contribute to AI and ML research projects,"SQL, CSS, HTML",CGPA >= 7.5,Chennai,False,2025-08-08,2025-10-02,90,52
+I00007,Web Dev Intern,Education,Develop frontend and backend web apps,"AI, SQL",CGPA >= 7.5,Chennai,True,2025-02-20,2025-03-16,42,30
+I00008,Web Dev Intern,Management,Develop frontend and backend web apps,"ML, Java",CGPA >= 7.5,Bangalore,True,2025-03-27,2025-05-24,41,37
+I00009,Finance Analyst Intern,Education,Contribute to AI and ML research projects,"Data Science, HTML, CSS",Any Year,Kolkata,False,2025-05-03,2025-07-02,32,11
+I00010,AI Research Intern,Management,Support HR operations and recruitment,"React, HTML",CGPA >= 7.5,Kolkata,True,2025-05-20,2025-06-18,86,10
+I00011,Finance Analyst Intern,Finance,Work on ML models and data pipelines,"React, HTML, Python",CGPA >= 7.5,Hyderabad,True,2025-06-19,2025-08-10,100,20
+I00012,Web Dev Intern,IT/AI,Work on ML models and data pipelines,"AI, HTML",Final Year,Mumbai,True,2025-06-09,2025-07-28,63,19
+I00013,Web Dev Intern,Education,Develop frontend and backend web apps,"Python, AI",Any Year,Bangalore,False,2025-07-25,2025-09-11,95,91
+I00014,AI Research Intern,Management,Contribute to AI and ML research projects,"React, HTML",Final Year,Hyderabad,True,2025-08-04,2025-09-07,33,28
+I00015,HR Intern,IT/AI,Assist in financial reporting and analysis,"ML, React, CSS, AI",CGPA >= 7.5,Chennai,True,2025-05-11,2025-06-22,77,57
+I00016,Web Dev Intern,Healthcare,Support HR operations and recruitment,"Java, CSS, HTML, Cloud",Final Year,Hyderabad,True,2025-02-26,2025-04-19,34,17
+I00017,HR Intern,Finance,Support HR operations and recruitment,"Data Science, ML, React",Final Year,Mumbai,False,2025-05-24,2025-06-30,87,24
+I00018,Data Science Intern,IT/AI,Contribute to AI and ML research projects,"CSS, Data Science",Any Year,Kolkata,False,2025-02-23,2025-04-20,64,27
+I00019,Web Dev Intern,IT/AI,Support HR operations and recruitment,"Java, Python, React, ML",Final Year,Bangalore,False,2025-01-02,2025-01-27,39,36
+I00020,Web Dev Intern,Finance,Support HR operations and recruitment,"HTML, CSS, Data Science",Any Year,Mumbai,False,2025-05-11,2025-05-26,73,60
+I00021,AI Research Intern,Finance,Contribute to AI and ML research projects,"CSS, React",Final Year,Kolkata,True,2025-01-17,2025-02-15,39,18
+I00022,HR Intern,Energy,Assist in financial reporting and analysis,"SQL, Data Science, Java, ML",Any Year,Delhi,True,2025-02-03,2025-03-04,43,25
+I00023,Web Dev Intern,Healthcare,Develop frontend and backend web apps,"Data Science, React, Cloud",CGPA >= 7.5,Chennai,False,2025-06-10,2025-08-09,38,12
+I00024,Web Dev Intern,Energy,Contribute to AI and ML research projects,"ML, Data Science",Any Year,Hyderabad,False,2025-06-28,2025-07-17,45,24
+I00025,Finance Analyst Intern,Education,Develop frontend and backend web apps,"React, Python, Cloud, SQL",Final Year,Chennai,False,2025-03-22,2025-05-12,25,14
+I00026,HR Intern,Education,Develop frontend and backend web apps,"AI, Data Science",CGPA >= 7.5,Kolkata,False,2025-02-16,2025-03-23,54,26
+I00027,Data Science Intern,Healthcare,Develop frontend and backend web apps,"SQL, Data Science",Any Year,Bangalore,True,2025-05-19,2025-07-17,77,75
+I00028,AI Research Intern,Education,Contribute to AI and ML research projects,"SQL, Cloud, AI",CGPA >= 7.5,Bangalore,False,2025-01-25,2025-03-04,85,50
+I00029,Web Dev Intern,IT/AI,Work on ML models and data pipelines,"CSS, HTML, Cloud",Final Year,Chennai,False,2025-08-12,2025-08-27,39,26
+I00030,Finance Analyst Intern,Energy,Support HR operations and recruitment,"Data Science, Python",CGPA >= 7.5,Kolkata,True,2025-04-05,2025-05-19,92,14
+I00031,Finance Analyst Intern,Education,Support HR operations and recruitment,"ML, Python, CSS",CGPA >= 7.5,Chennai,False,2025-07-01,2025-07-25,66,42
+I00032,Web Dev Intern,Energy,Develop frontend and backend web apps,"HTML, CSS, Python",CGPA >= 7.5,Chennai,True,2025-06-15,2025-07-03,36,35
+I00033,Web Dev Intern,Healthcare,Assist in financial reporting and analysis,"Python, AI, ML",Any Year,Delhi,False,2025-08-03,2025-09-19,22,11
+I00034,Data Science Intern,Management,Work on ML models and data pipelines,"SQL, ML, CSS, React",Final Year,Hyderabad,False,2025-04-22,2025-05-08,43,38
+I00035,Web Dev Intern,Education,Assist in financial reporting and analysis,"AI, React, Java",Any Year,Delhi,True,2025-03-20,2025-04-08,41,12
+I00036,Finance Analyst Intern,Management,Assist in financial reporting and analysis,"HTML, CSS, Cloud, Python",Final Year,Kolkata,False,2025-02-26,2025-04-27,65,41
+I00037,Web Dev Intern,Management,Develop frontend and backend web apps,"HTML, Java, Cloud, SQL",Any Year,Delhi,False,2025-02-05,2025-03-12,32,19
+I00038,AI Research Intern,Energy,Work on ML models and data pipelines,"Python, ML",Final Year,Mumbai,True,2025-03-03,2025-04-06,63,19
+I00039,HR Intern,Energy,Develop frontend and backend web apps,"React, SQL, CSS",CGPA >= 7.5,Delhi,False,2025-02-02,2025-03-17,21,10
+I00040,HR Intern,Education,Contribute to AI and ML research projects,"ML, React",Final Year,Delhi,False,2025-03-10,2025-04-27,100,64
+I00041,Data Science Intern,Finance,Work on ML models and data pipelines,"Python, HTML, SQL, CSS",Final Year,Delhi,True,2025-06-19,2025-07-31,37,35
+I00042,Finance Analyst Intern,Energy,Contribute to AI and ML research projects,"ML, AI",CGPA >= 7.5,Chennai,False,2025-05-01,2025-06-25,63,25
+I00043,Finance Analyst Intern,Finance,Develop frontend and backend web apps,"HTML, Cloud, CSS",Final Year,Bangalore,True,2025-01-15,2025-02-19,25,22
+I00044,Web Dev Intern,Finance,Develop frontend and backend web apps,"Data Science, CSS",Any Year,Mumbai,False,2025-01-18,2025-02-13,73,43
+I00045,Data Science Intern,Management,Develop frontend and backend web apps,"AI, Cloud, React, Data Science",Final Year,Bangalore,False,2025-08-08,2025-09-19,96,28
+I00046,Data Science Intern,Education,Support HR operations and recruitment,"ML, CSS, Python, SQL",Final Year,Kolkata,True,2025-08-16,2025-09-11,59,53
+I00047,Web Dev Intern,Energy,Support HR operations and recruitment,"HTML, Data Science, React, ML",Final Year,Mumbai,False,2025-08-13,2025-09-26,90,12
+I00048,Data Science Intern,Healthcare,Support HR operations and recruitment,"Python, React, Data Science, ML",CGPA >= 7.5,Chennai,True,2025-06-13,2025-08-10,54,18
+I00049,Data Science Intern,Energy,Support HR operations and recruitment,"Java, CSS",Any Year,Delhi,True,2025-07-18,2025-08-16,40,20
+I00050,AI Research Intern,Healthcare,Support HR operations and recruitment,"SQL, HTML",Final Year,Delhi,True,2025-01-20,2025-02-16,90,69
+I00051,Finance Analyst Intern,Management,Work on ML models and data pipelines,"Java, ML, Cloud, AI",Final Year,Kolkata,True,2025-01-10,2025-02-10,77,57
+I00052,Finance Analyst Intern,IT/AI,Support HR operations and recruitment,"Java, Data Science",Any Year,Chennai,True,2025-06-14,2025-07-02,82,68
+I00053,AI Research Intern,Management,Work on ML models and data pipelines,"React, Java, SQL",CGPA >= 7.5,Chennai,False,2025-03-11,2025-04-17,29,24
+I00054,HR Intern,Management,Work on ML models and data pipelines,"SQL, Python, AI, Java",Any Year,Mumbai,False,2025-04-18,2025-06-05,69,46
+I00055,Data Science Intern,Management,Assist in financial reporting and analysis,"SQL, React",Any Year,Delhi,False,2025-01-17,2025-03-13,56,14
+I00056,Web Dev Intern,Finance,Assist in financial reporting and analysis,"CSS, Data Science",CGPA >= 7.5,Mumbai,True,2025-08-25,2025-10-01,69,48
+I00057,AI Research Intern,Energy,Contribute to AI and ML research projects,"AI, CSS, HTML",Any Year,Mumbai,True,2025-02-07,2025-02-23,80,25
+I00058,Finance Analyst Intern,Management,Assist in financial reporting and analysis,"Data Science, SQL, CSS, AI",Final Year,Kolkata,False,2025-02-07,2025-03-23,81,54
+I00059,Web Dev Intern,Healthcare,Support HR operations and recruitment,"ML, HTML, Cloud",CGPA >= 7.5,Mumbai,False,2025-03-02,2025-04-21,28,25
+I00060,Finance Analyst Intern,Finance,Assist in financial reporting and analysis,"Data Science, Cloud, Python, HTML",CGPA >= 7.5,Delhi,True,2025-03-22,2025-05-04,82,48
+I00061,AI Research Intern,Healthcare,Assist in financial reporting and analysis,"ML, React",CGPA >= 7.5,Chennai,False,2025-01-14,2025-03-08,93,25
+I00062,Data Science Intern,Energy,Support HR operations and recruitment,"ML, SQL",Final Year,Kolkata,True,2025-02-24,2025-03-25,94,48
+I00063,HR Intern,Healthcare,Support HR operations and recruitment,"ML, Java, AI",Final Year,Kolkata,True,2025-07-23,2025-08-08,57,17
+I00064,Data Science Intern,Energy,Work on ML models and data pipelines,"Cloud, Java, CSS",CGPA >= 7.5,Hyderabad,True,2025-04-12,2025-06-03,31,11
+I00065,AI Research Intern,Management,Support HR operations and recruitment,"React, Java, Cloud, HTML",Any Year,Hyderabad,False,2025-05-14,2025-06-15,22,10
+I00066,Finance Analyst Intern,Education,Support HR operations and recruitment,"Data Science, SQL, ML, Java",CGPA >= 7.5,Mumbai,True,2025-04-08,2025-05-24,57,43
+I00067,HR Intern,Management,Support HR operations and recruitment,"SQL, Data Science, AI, ML",CGPA >= 7.5,Mumbai,True,2025-07-09,2025-08-18,62,16
+I00068,AI Research Intern,Healthcare,Contribute to AI and ML research projects,"SQL, Java, HTML",CGPA >= 7.5,Hyderabad,True,2025-07-07,2025-08-16,32,16
+I00069,AI Research Intern,Energy,Contribute to AI and ML research projects,"Python, CSS, AI, Cloud",CGPA >= 7.5,Hyderabad,True,2025-03-02,2025-03-21,84,77
+I00070,Data Science Intern,Energy,Work on ML models and data pipelines,"Data Science, Cloud, CSS",Any Year,Delhi,True,2025-05-18,2025-06-24,50,32
+I00071,Web Dev Intern,Education,Work on ML models and data pipelines,"CSS, AI, Python, ML",Final Year,Delhi,False,2025-03-04,2025-04-30,81,30
+I00072,Finance Analyst Intern,IT/AI,Work on ML models and data pipelines,"SQL, ML, AI, Data Science",Final Year,Kolkata,True,2025-05-20,2025-06-08,50,16
+I00073,AI Research Intern,Energy,Contribute to AI and ML research projects,"Python, Data Science, CSS, HTML",CGPA >= 7.5,Hyderabad,True,2025-06-04,2025-07-25,80,67
+I00074,AI Research Intern,Education,Work on ML models and data pipelines,"HTML, Java, CSS",Any Year,Chennai,False,2025-08-28,2025-10-06,37,11
+I00075,HR Intern,Healthcare,Assist in financial reporting and analysis,"AI, React",CGPA >= 7.5,Bangalore,True,2025-07-15,2025-08-30,31,23
+I00076,Web Dev Intern,Finance,Work on ML models and data pipelines,"CSS, Python, React, Data Science",Any Year,Chennai,True,2025-01-26,2025-03-21,91,17
+I00077,AI Research Intern,Management,Support HR operations and recruitment,"CSS, ML, React, AI",Any Year,Chennai,False,2025-02-07,2025-04-08,41,11
+I00078,HR Intern,Energy,Contribute to AI and ML research projects,"Cloud, SQL",CGPA >= 7.5,Hyderabad,True,2025-01-11,2025-02-22,82,62
+I00079,Data Science Intern,Healthcare,Contribute to AI and ML research projects,"Python, SQL, React, Cloud",CGPA >= 7.5,Hyderabad,False,2025-05-22,2025-06-25,61,25
+I00080,Data Science Intern,Management,Contribute to AI and ML research projects,"SQL, ML, Data Science",Final Year,Delhi,True,2025-05-03,2025-06-23,44,16
+I00081,AI Research Intern,Energy,Assist in financial reporting and analysis,"HTML, React, Data Science",Final Year,Bangalore,True,2025-06-04,2025-07-28,89,56
+I00082,AI Research Intern,Education,Work on ML models and data pipelines,"AI, Java, Cloud, HTML",Any Year,Chennai,True,2025-06-20,2025-07-27,43,26
+I00083,AI Research Intern,Education,Contribute to AI and ML research projects,"ML, AI, Cloud, SQL",Final Year,Delhi,False,2025-03-09,2025-04-25,24,13
+I00084,Finance Analyst Intern,Finance,Support HR operations and recruitment,"CSS, HTML, Cloud, Python",Final Year,Mumbai,False,2025-01-23,2025-03-09,72,56
+I00085,HR Intern,Management,Assist in financial reporting and analysis,"HTML, ML, React",Final Year,Chennai,True,2025-08-01,2025-09-30,36,29
+I00086,HR Intern,Education,Develop frontend and backend web apps,"Java, SQL",Final Year,Mumbai,False,2025-02-21,2025-03-22,84,47
+I00087,Finance Analyst Intern,Energy,Develop frontend and backend web apps,"Data Science, ML, CSS, Python",Final Year,Bangalore,True,2025-01-25,2025-03-19,23,22
+I00088,Web Dev Intern,Management,Develop frontend and backend web apps,"CSS, HTML, Data Science",Final Year,Hyderabad,True,2025-06-28,2025-08-11,27,24
+I00089,Finance Analyst Intern,IT/AI,Assist in financial reporting and analysis,"HTML, AI, React, Java",CGPA >= 7.5,Bangalore,False,2025-05-17,2025-06-15,32,28
+I00090,Finance Analyst Intern,Healthcare,Assist in financial reporting and analysis,"SQL, AI, React",CGPA >= 7.5,Bangalore,True,2025-01-17,2025-03-06,66,51
+I00091,HR Intern,Finance,Work on ML models and data pipelines,"CSS, Cloud",Final Year,Kolkata,False,2025-01-28,2025-03-20,69,11
+I00092,Data Science Intern,Healthcare,Contribute to AI and ML research projects,"React, ML",Final Year,Hyderabad,False,2025-08-25,2025-10-13,82,67
+I00093,AI Research Intern,Healthcare,Contribute to AI and ML research projects,"React, Python, Data Science",Any Year,Delhi,False,2025-06-10,2025-08-05,45,18
+I00094,Finance Analyst Intern,IT/AI,Assist in financial reporting and analysis,"ML, SQL, Data Science",Any Year,Chennai,False,2025-07-10,2025-08-16,28,23
+I00095,Web Dev Intern,Finance,Support HR operations and recruitment,"AI, ML, Cloud",Any Year,Mumbai,False,2025-04-24,2025-06-22,50,39
+I00096,Finance Analyst Intern,Education,Work on ML models and data pipelines,"Data Science, Cloud, SQL",CGPA >= 7.5,Hyderabad,False,2025-01-06,2025-02-02,80,61
+I00097,Web Dev Intern,Education,Support HR operations and recruitment,"Java, Python",Any Year,Hyderabad,False,2025-02-07,2025-03-21,56,22
+I00098,AI Research Intern,Healthcare,Develop frontend and backend web apps,"Java, SQL, Python",CGPA >= 7.5,Mumbai,True,2025-03-27,2025-04-13,66,32
+I00099,Web Dev Intern,Healthcare,Support HR operations and recruitment,"Cloud, ML, SQL",CGPA >= 7.5,Bangalore,True,2025-03-22,2025-05-16,72,18
+I00100,Web Dev Intern,Energy,Contribute to AI and ML research projects,"CSS, React, HTML, Cloud",Any Year,Chennai,True,2025-04-15,2025-06-09,85,14
+I00101,Web Dev Intern,Energy,Assist in financial reporting and analysis,"Data Science, React, ML, Java",Final Year,Hyderabad,True,2025-04-07,2025-05-30,44,31
+I00102,AI Research Intern,Management,Develop frontend and backend web apps,"ML, Java, CSS, SQL",Final Year,Mumbai,True,2025-04-17,2025-05-16,27,14
+I00103,AI Research Intern,Healthcare,Assist in financial reporting and analysis,"ML, Python, React",Any Year,Bangalore,False,2025-06-04,2025-08-01,92,21
+I00104,Finance Analyst Intern,Energy,Assist in financial reporting and analysis,"AI, SQL",Any Year,Mumbai,False,2025-03-09,2025-04-21,63,62
+I00105,AI Research Intern,Energy,Assist in financial reporting and analysis,"AI, HTML",CGPA >= 7.5,Mumbai,False,2025-03-12,2025-05-06,57,48
+I00106,AI Research Intern,Management,Contribute to AI and ML research projects,"React, HTML",Final Year,Chennai,False,2025-02-03,2025-02-23,93,79
+I00107,Finance Analyst Intern,Management,Contribute to AI and ML research projects,"Data Science, SQL, Java, AI",CGPA >= 7.5,Kolkata,True,2025-07-15,2025-08-05,24,24
+I00108,Finance Analyst Intern,Management,Develop frontend and backend web apps,"HTML, React, CSS",CGPA >= 7.5,Hyderabad,True,2025-03-05,2025-04-27,97,10
+I00109,HR Intern,Education,Develop frontend and backend web apps,"Data Science, Python, AI, CSS",Any Year,Hyderabad,False,2025-08-25,2025-10-04,67,30
+I00110,AI Research Intern,Finance,Work on ML models and data pipelines,"AI, Data Science",Any Year,Bangalore,True,2025-05-20,2025-07-14,50,29
+I00111,Web Dev Intern,Management,Support HR operations and recruitment,"ML, Java, CSS, Cloud",Any Year,Bangalore,True,2025-04-08,2025-06-04,75,36
+I00112,Data Science Intern,Education,Develop frontend and backend web apps,"HTML, Data Science, React, Java",Any Year,Bangalore,True,2025-01-24,2025-03-24,50,35
+I00113,HR Intern,Management,Assist in financial reporting and analysis,"Python, Data Science",Final Year,Delhi,False,2025-05-26,2025-06-27,55,22
+I00114,Web Dev Intern,Energy,Contribute to AI and ML research projects,"SQL, Data Science",Final Year,Chennai,False,2025-07-22,2025-09-16,82,64
+I00115,Data Science Intern,Healthcare,Develop frontend and backend web apps,"Python, AI",Any Year,Chennai,False,2025-03-23,2025-04-07,48,24
+I00116,Web Dev Intern,Healthcare,Contribute to AI and ML research projects,"CSS, AI, ML",CGPA >= 7.5,Delhi,False,2025-06-20,2025-08-14,54,53
+I00117,Web Dev Intern,Healthcare,Develop frontend and backend web apps,"Java, ML, Cloud, CSS",CGPA >= 7.5,Kolkata,False,2025-01-07,2025-03-03,71,30
+I00118,Web Dev Intern,IT/AI,Work on ML models and data pipelines,"Data Science, React, SQL, Python",Any Year,Delhi,False,2025-03-04,2025-03-21,56,52
+I00119,Data Science Intern,Healthcare,Contribute to AI and ML research projects,"Java, ML",CGPA >= 7.5,Kolkata,True,2025-01-14,2025-01-29,38,25
+I00120,HR Intern,Energy,Contribute to AI and ML research projects,"SQL, Data Science, CSS, ML",Any Year,Hyderabad,True,2025-07-06,2025-07-21,75,41
+I00121,Data Science Intern,Education,Work on ML models and data pipelines,"Cloud, React",CGPA >= 7.5,Chennai,False,2025-04-04,2025-05-10,91,40
+I00122,AI Research Intern,Management,Work on ML models and data pipelines,"HTML, SQL",CGPA >= 7.5,Delhi,True,2025-08-16,2025-09-15,61,42
+I00123,Web Dev Intern,Energy,Work on ML models and data pipelines,"Python, Cloud, SQL",Final Year,Delhi,True,2025-04-18,2025-05-05,86,63
+I00124,AI Research Intern,Management,Work on ML models and data pipelines,"React, Cloud, HTML, SQL",CGPA >= 7.5,Hyderabad,False,2025-03-13,2025-05-11,23,10
+I00125,Web Dev Intern,IT/AI,Support HR operations and recruitment,"SQL, AI, ML, React",Any Year,Bangalore,False,2025-08-06,2025-08-31,92,66
+I00126,Web Dev Intern,Energy,Develop frontend and backend web apps,"Java, HTML, Data Science, Python",Any Year,Delhi,False,2025-01-27,2025-02-16,96,20
+I00127,AI Research Intern,Education,Support HR operations and recruitment,"Data Science, HTML, Java",CGPA >= 7.5,Bangalore,False,2025-04-28,2025-05-21,30,16
+I00128,Web Dev Intern,IT/AI,Work on ML models and data pipelines,"AI, SQL, Data Science, Cloud",CGPA >= 7.5,Chennai,False,2025-01-08,2025-03-05,32,15
+I00129,Data Science Intern,Education,Support HR operations and recruitment,"SQL, React, CSS, Cloud",Final Year,Delhi,False,2025-01-16,2025-03-03,97,54
+I00130,Data Science Intern,Energy,Develop frontend and backend web apps,"CSS, ML, SQL, Cloud",CGPA >= 7.5,Mumbai,False,2025-06-08,2025-07-04,57,54
+I00131,Web Dev Intern,Education,Contribute to AI and ML research projects,"AI, Data Science",CGPA >= 7.5,Chennai,True,2025-02-02,2025-02-22,25,21
+I00132,HR Intern,Education,Assist in financial reporting and analysis,"HTML, AI",CGPA >= 7.5,Delhi,True,2025-08-17,2025-09-11,100,52
+I00133,AI Research Intern,Management,Contribute to AI and ML research projects,"ML, HTML",CGPA >= 7.5,Mumbai,True,2025-02-27,2025-04-08,31,15
+I00134,Web Dev Intern,Healthcare,Support HR operations and recruitment,"CSS, Python, AI",CGPA >= 7.5,Delhi,True,2025-08-24,2025-09-12,78,48
+I00135,Finance Analyst Intern,Healthcare,Assist in financial reporting and analysis,"ML, CSS, Java, AI",Any Year,Kolkata,True,2025-07-28,2025-09-21,43,25
+I00136,HR Intern,Education,Contribute to AI and ML research projects,"ML, AI",Final Year,Hyderabad,False,2025-08-06,2025-09-30,85,60
+I00137,Finance Analyst Intern,Healthcare,Support HR operations and recruitment,"ML, HTML",Any Year,Delhi,False,2025-01-05,2025-02-10,87,52
+I00138,HR Intern,Management,Contribute to AI and ML research projects,"React, Cloud, SQL, AI",Any Year,Hyderabad,False,2025-06-07,2025-07-27,21,15
+I00139,HR Intern,IT/AI,Work on ML models and data pipelines,"AI, Java",Any Year,Chennai,True,2025-01-19,2025-02-05,34,27
+I00140,Finance Analyst Intern,Management,Support HR operations and recruitment,"Python, ML",Final Year,Mumbai,True,2025-07-18,2025-08-25,36,24
+I00141,Web Dev Intern,Finance,Contribute to AI and ML research projects,"AI, CSS, Data Science, React",CGPA >= 7.5,Bangalore,True,2025-02-27,2025-04-02,95,28
+I00142,AI Research Intern,IT/AI,Assist in financial reporting and analysis,"HTML, React, Java",CGPA >= 7.5,Hyderabad,True,2025-03-01,2025-04-21,85,46
+I00143,HR Intern,IT/AI,Assist in financial reporting and analysis,"React, SQL, ML",Final Year,Mumbai,True,2025-08-12,2025-08-29,93,42
+I00144,Data Science Intern,Management,Work on ML models and data pipelines,"Python, Java, ML, HTML",Final Year,Mumbai,False,2025-08-12,2025-10-11,66,42
+I00145,Finance Analyst Intern,Healthcare,Develop frontend and backend web apps,"Java, Python, React, AI",CGPA >= 7.5,Bangalore,True,2025-03-11,2025-04-03,34,32
+I00146,HR Intern,Management,Work on ML models and data pipelines,"React, Data Science",CGPA >= 7.5,Bangalore,False,2025-05-01,2025-06-24,97,89
+I00147,Data Science Intern,Finance,Develop frontend and backend web apps,"SQL, ML, CSS, HTML",Final Year,Kolkata,True,2025-05-18,2025-07-17,42,18
+I00148,AI Research Intern,Management,Assist in financial reporting and analysis,"CSS, AI, Cloud, SQL",Final Year,Hyderabad,False,2025-04-14,2025-05-01,49,25
+I00149,AI Research Intern,Management,Assist in financial reporting and analysis,"ML, React, CSS",Final Year,Chennai,False,2025-04-28,2025-06-14,63,14
+I00150,Data Science Intern,IT/AI,Work on ML models and data pipelines,"Python, Java, Data Science, ML",CGPA >= 7.5,Bangalore,False,2025-03-12,2025-04-19,64,46
+I00151,Web Dev Intern,Education,Support HR operations and recruitment,"Data Science, Java",Any Year,Delhi,True,2025-01-06,2025-03-02,54,37
+I00152,Web Dev Intern,Management,Assist in financial reporting and analysis,"ML, HTML, Java",Final Year,Hyderabad,False,2025-07-24,2025-08-09,91,26
+I00153,Data Science Intern,Education,Contribute to AI and ML research projects,"Java, Data Science",Final Year,Hyderabad,False,2025-06-11,2025-08-02,72,43
+I00154,HR Intern,Finance,Work on ML models and data pipelines,"React, CSS, Python, SQL",Final Year,Chennai,True,2025-07-23,2025-08-31,92,57
+I00155,HR Intern,IT/AI,Develop frontend and backend web apps,"AI, Data Science, HTML",Final Year,Chennai,False,2025-02-04,2025-03-02,44,35
+I00156,Data Science Intern,Finance,Contribute to AI and ML research projects,"Data Science, Java, ML",CGPA >= 7.5,Chennai,False,2025-05-25,2025-07-02,96,79
+I00157,Finance Analyst Intern,Healthcare,Support HR operations and recruitment,"Cloud, Python, React, AI",Final Year,Mumbai,False,2025-06-11,2025-06-29,75,23
+I00158,HR Intern,Healthcare,Contribute to AI and ML research projects,"ML, HTML",CGPA >= 7.5,Chennai,True,2025-06-28,2025-08-13,76,16
+I00159,Finance Analyst Intern,IT/AI,Work on ML models and data pipelines,"HTML, React, CSS",Final Year,Bangalore,True,2025-07-28,2025-08-16,57,12
+I00160,Data Science Intern,IT/AI,Assist in financial reporting and analysis,"AI, Cloud, React",Any Year,Mumbai,True,2025-05-20,2025-06-19,37,27
+I00161,Web Dev Intern,Energy,Assist in financial reporting and analysis,"ML, CSS, AI, Data Science",Final Year,Delhi,True,2025-06-21,2025-07-07,26,25
+I00162,HR Intern,Education,Contribute to AI and ML research projects,"Cloud, CSS",Final Year,Hyderabad,True,2025-02-25,2025-03-23,49,32
+I00163,HR Intern,Education,Assist in financial reporting and analysis,"Data Science, SQL, HTML, ML",Any Year,Mumbai,True,2025-03-02,2025-03-23,22,17
+I00164,HR Intern,Energy,Contribute to AI and ML research projects,"React, AI",CGPA >= 7.5,Delhi,True,2025-03-13,2025-05-04,43,20
+I00165,Finance Analyst Intern,Management,Work on ML models and data pipelines,"ML, HTML, Data Science",CGPA >= 7.5,Delhi,True,2025-01-15,2025-02-18,20,13
+I00166,Web Dev Intern,Education,Develop frontend and backend web apps,"Data Science, ML, AI",CGPA >= 7.5,Bangalore,False,2025-05-07,2025-06-04,86,62
+I00167,Data Science Intern,Management,Assist in financial reporting and analysis,"AI, Java",CGPA >= 7.5,Delhi,True,2025-02-02,2025-02-20,42,26
+I00168,Finance Analyst Intern,IT/AI,Develop frontend and backend web apps,"Cloud, Data Science, SQL, Java",CGPA >= 7.5,Mumbai,False,2025-02-17,2025-03-08,81,15
+I00169,Data Science Intern,IT/AI,Contribute to AI and ML research projects,"Java, React, ML",Any Year,Kolkata,True,2025-06-24,2025-07-17,22,11
+I00170,Data Science Intern,Energy,Develop frontend and backend web apps,"SQL, CSS, Python, ML",Any Year,Mumbai,True,2025-08-08,2025-08-31,36,18
+I00171,Finance Analyst Intern,Finance,Support HR operations and recruitment,"Data Science, React, Python, CSS",Final Year,Bangalore,False,2025-03-19,2025-04-19,48,17
+I00172,Data Science Intern,Education,Support HR operations and recruitment,"Cloud, SQL, Data Science, AI",CGPA >= 7.5,Delhi,True,2025-06-25,2025-08-03,69,41
+I00173,HR Intern,Education,Contribute to AI and ML research projects,"SQL, ML",Final Year,Bangalore,True,2025-01-10,2025-01-30,75,59
+I00174,Finance Analyst Intern,Healthcare,Support HR operations and recruitment,"ML, Python, AI",Final Year,Kolkata,True,2025-02-25,2025-04-18,88,13
+I00175,HR Intern,Energy,Contribute to AI and ML research projects,"CSS, Data Science, Java, Python",Final Year,Delhi,False,2025-04-04,2025-05-16,37,12
+I00176,Web Dev Intern,Management,Contribute to AI and ML research projects,"ML, Data Science",Final Year,Chennai,True,2025-04-12,2025-05-27,43,39
+I00177,Data Science Intern,IT/AI,Work on ML models and data pipelines,"Data Science, Python",Final Year,Hyderabad,True,2025-03-13,2025-03-30,38,18
+I00178,AI Research Intern,Education,Contribute to AI and ML research projects,"Cloud, SQL, Python",Final Year,Kolkata,True,2025-03-18,2025-04-08,20,13
+I00179,Web Dev Intern,Healthcare,Work on ML models and data pipelines,"Python, CSS, Data Science, Java",Any Year,Mumbai,False,2025-03-28,2025-04-23,72,59
+I00180,AI Research Intern,Finance,Contribute to AI and ML research projects,"ML, HTML",Final Year,Mumbai,False,2025-08-01,2025-08-30,46,39
+I00181,Web Dev Intern,Healthcare,Contribute to AI and ML research projects,"Python, CSS",CGPA >= 7.5,Kolkata,False,2025-07-20,2025-09-04,97,52
+I00182,Finance Analyst Intern,IT/AI,Work on ML models and data pipelines,"React, SQL",Any Year,Mumbai,False,2025-02-21,2025-04-11,63,51
+I00183,Web Dev Intern,Healthcare,Work on ML models and data pipelines,"React, Data Science",Final Year,Kolkata,True,2025-02-20,2025-04-16,81,14
+I00184,HR Intern,Education,Work on ML models and data pipelines,"SQL, ML, Python",Final Year,Chennai,False,2025-02-19,2025-03-06,89,33
+I00185,Finance Analyst Intern,Education,Develop frontend and backend web apps,"SQL, CSS, Java, HTML",Any Year,Kolkata,True,2025-02-19,2025-04-05,75,54
+I00186,HR Intern,IT/AI,Develop frontend and backend web apps,"Cloud, ML, React",CGPA >= 7.5,Delhi,True,2025-06-10,2025-07-28,42,33
+I00187,HR Intern,Management,Contribute to AI and ML research projects,"Cloud, React, ML",Any Year,Delhi,True,2025-05-04,2025-07-02,59,34
+I00188,Web Dev Intern,IT/AI,Develop frontend and backend web apps,"SQL, Data Science",Final Year,Mumbai,False,2025-05-10,2025-07-09,29,19
+I00189,HR Intern,Finance,Work on ML models and data pipelines,"React, Python, ML, Cloud",Any Year,Delhi,False,2025-05-03,2025-06-16,96,31
+I00190,Web Dev Intern,Energy,Contribute to AI and ML research projects,"Java, CSS",Any Year,Bangalore,False,2025-07-26,2025-09-04,60,50
+I00191,Data Science Intern,Energy,Contribute to AI and ML research projects,"AI, HTML, ML",Any Year,Kolkata,False,2025-08-03,2025-09-21,22,14
+I00192,AI Research Intern,Healthcare,Contribute to AI and ML research projects,"ML, CSS, Cloud, Python",Final Year,Mumbai,False,2025-04-06,2025-05-12,86,12
+I00193,Web Dev Intern,Education,Support HR operations and recruitment,"SQL, ML",Final Year,Mumbai,False,2025-06-15,2025-07-07,95,12
+I00194,HR Intern,Management,Assist in financial reporting and analysis,"HTML, Data Science, SQL, Python",CGPA >= 7.5,Delhi,True,2025-02-09,2025-03-17,38,38
+I00195,Web Dev Intern,Management,Develop frontend and backend web apps,"CSS, SQL, Data Science, React",Final Year,Chennai,True,2025-03-24,2025-04-22,67,15
+I00196,Data Science Intern,Healthcare,Develop frontend and backend web apps,"Java, Python, Data Science, SQL",CGPA >= 7.5,Delhi,False,2025-01-09,2025-03-01,51,46
+I00197,Web Dev Intern,Education,Work on ML models and data pipelines,"Data Science, AI",Any Year,Delhi,False,2025-07-09,2025-08-17,38,23
+I00198,Web Dev Intern,Energy,Develop frontend and backend web apps,"SQL, AI, Data Science",Final Year,Chennai,False,2025-03-28,2025-04-15,72,21
+I00199,Data Science Intern,Education,Support HR operations and recruitment,"React, Python, Data Science",CGPA >= 7.5,Bangalore,False,2025-01-17,2025-02-16,43,22
+I00200,AI Research Intern,Finance,Assist in financial reporting and analysis,"React, Java, AI, SQL",Final Year,Hyderabad,True,2025-01-22,2025-02-20,98,73
+I00201,Data Science Intern,Finance,Contribute to AI and ML research projects,"HTML, Cloud",Final Year,Bangalore,False,2025-01-01,2025-02-20,25,11
+I00202,Web Dev Intern,Education,Support HR operations and recruitment,"AI, Java, ML",Any Year,Mumbai,False,2025-07-07,2025-07-30,84,69
+I00203,AI Research Intern,Education,Develop frontend and backend web apps,"HTML, Data Science, Java",CGPA >= 7.5,Bangalore,True,2025-03-24,2025-05-11,100,41
+I00204,HR Intern,Education,Develop frontend and backend web apps,"ML, AI",CGPA >= 7.5,Kolkata,True,2025-02-17,2025-04-08,32,15
+I00205,HR Intern,Energy,Develop frontend and backend web apps,"ML, CSS, Cloud, React",CGPA >= 7.5,Hyderabad,False,2025-01-05,2025-02-22,90,15
+I00206,Web Dev Intern,Energy,Support HR operations and recruitment,"HTML, ML, AI, React",Final Year,Chennai,True,2025-04-16,2025-05-09,52,35
+I00207,Data Science Intern,Education,Assist in financial reporting and analysis,"Python, Data Science, HTML, AI",Any Year,Delhi,False,2025-03-27,2025-05-09,28,12
+I00208,AI Research Intern,Finance,Support HR operations and recruitment,"ML, Cloud, Data Science",Final Year,Hyderabad,False,2025-01-11,2025-03-07,36,31
+I00209,HR Intern,Management,Assist in financial reporting and analysis,"SQL, HTML, React, Python",Final Year,Bangalore,False,2025-04-28,2025-06-17,60,42
+I00210,Web Dev Intern,IT/AI,Work on ML models and data pipelines,"ML, Python",Any Year,Chennai,False,2025-08-07,2025-10-02,59,11
+I00211,Data Science Intern,Management,Contribute to AI and ML research projects,"React, SQL",CGPA >= 7.5,Kolkata,False,2025-05-27,2025-07-13,79,22
+I00212,Finance Analyst Intern,Energy,Support HR operations and recruitment,"Python, Cloud, React, Data Science",CGPA >= 7.5,Hyderabad,True,2025-06-07,2025-06-27,78,31
+I00213,Data Science Intern,Finance,Work on ML models and data pipelines,"SQL, Cloud, CSS, HTML",Any Year,Mumbai,True,2025-03-24,2025-04-27,92,15
+I00214,Finance Analyst Intern,IT/AI,Assist in financial reporting and analysis,"AI, HTML, CSS, Cloud",Any Year,Bangalore,True,2025-05-18,2025-06-22,96,36
+I00215,Finance Analyst Intern,IT/AI,Support HR operations and recruitment,"HTML, CSS, SQL, Cloud",CGPA >= 7.5,Hyderabad,True,2025-08-15,2025-09-25,100,17
+I00216,Finance Analyst Intern,Finance,Work on ML models and data pipelines,"CSS, ML, React, Cloud",CGPA >= 7.5,Mumbai,True,2025-05-03,2025-05-24,70,12
+I00217,Web Dev Intern,Management,Contribute to AI and ML research projects,"HTML, Python, CSS",Any Year,Mumbai,True,2025-04-04,2025-05-20,86,76
+I00218,Finance Analyst Intern,Management,Contribute to AI and ML research projects,"Java, Data Science, HTML",CGPA >= 7.5,Mumbai,False,2025-02-22,2025-03-17,94,66
+I00219,AI Research Intern,IT/AI,Assist in financial reporting and analysis,"CSS, Python, SQL, AI",CGPA >= 7.5,Delhi,True,2025-08-15,2025-08-31,51,13
+I00220,Data Science Intern,Management,Support HR operations and recruitment,"SQL, React",CGPA >= 7.5,Hyderabad,True,2025-02-24,2025-04-05,35,25
+I00221,HR Intern,Management,Develop frontend and backend web apps,"ML, React, Python, SQL",CGPA >= 7.5,Hyderabad,True,2025-08-03,2025-09-28,29,10
+I00222,Finance Analyst Intern,Education,Support HR operations and recruitment,"SQL, Cloud, AI, Data Science",Final Year,Mumbai,True,2025-06-17,2025-08-06,25,25
+I00223,HR Intern,Energy,Support HR operations and recruitment,"HTML, Python",Final Year,Bangalore,False,2025-07-18,2025-08-27,98,40
+I00224,Data Science Intern,Finance,Support HR operations and recruitment,"AI, Data Science, HTML",Final Year,Bangalore,True,2025-02-21,2025-03-31,98,35
+I00225,HR Intern,Management,Work on ML models and data pipelines,"Python, ML, CSS",Final Year,Kolkata,True,2025-06-25,2025-07-27,72,52
+I00226,AI Research Intern,Energy,Assist in financial reporting and analysis,"CSS, AI, React, Cloud",Any Year,Chennai,True,2025-06-24,2025-07-11,79,76
+I00227,HR Intern,Energy,Assist in financial reporting and analysis,"React, Cloud, ML",Any Year,Hyderabad,False,2025-02-21,2025-04-10,27,18
+I00228,HR Intern,Healthcare,Support HR operations and recruitment,"CSS, HTML",Final Year,Kolkata,False,2025-03-06,2025-04-15,51,17
+I00229,AI Research Intern,IT/AI,Work on ML models and data pipelines,"Cloud, Java",Final Year,Delhi,True,2025-03-08,2025-04-22,34,13
+I00230,Data Science Intern,Energy,Work on ML models and data pipelines,"CSS, React, Data Science",Final Year,Delhi,True,2025-01-14,2025-03-08,56,33
+I00231,AI Research Intern,Finance,Contribute to AI and ML research projects,"Data Science, React",Any Year,Mumbai,True,2025-01-18,2025-03-07,39,26
+I00232,HR Intern,Education,Work on ML models and data pipelines,"Python, CSS, SQL, Cloud",CGPA >= 7.5,Bangalore,True,2025-05-11,2025-05-31,67,31
+I00233,Finance Analyst Intern,Education,Support HR operations and recruitment,"Cloud, Data Science, HTML",CGPA >= 7.5,Bangalore,False,2025-03-27,2025-05-04,78,45
+I00234,Data Science Intern,Healthcare,Assist in financial reporting and analysis,"Cloud, AI, Java, CSS",Any Year,Mumbai,False,2025-04-14,2025-05-08,43,20
+I00235,AI Research Intern,Energy,Support HR operations and recruitment,"AI, Cloud",Final Year,Mumbai,False,2025-02-24,2025-03-30,44,24
+I00236,AI Research Intern,Management,Assist in financial reporting and analysis,"AI, Python",CGPA >= 7.5,Hyderabad,False,2025-04-09,2025-06-02,36,25
+I00237,Data Science Intern,Education,Assist in financial reporting and analysis,"Cloud, React",CGPA >= 7.5,Hyderabad,False,2025-01-19,2025-03-01,74,52
+I00238,AI Research Intern,Energy,Assist in financial reporting and analysis,"React, Cloud, CSS, HTML",CGPA >= 7.5,Bangalore,True,2025-02-04,2025-03-12,92,30
+I00239,Data Science Intern,Healthcare,Support HR operations and recruitment,"CSS, Java, Data Science",Any Year,Bangalore,True,2025-05-21,2025-06-05,24,17
+I00240,Finance Analyst Intern,Education,Contribute to AI and ML research projects,"Python, SQL, Cloud, AI",Any Year,Chennai,False,2025-03-07,2025-04-22,56,41
+I00241,HR Intern,Education,Support HR operations and recruitment,"Python, Cloud",Final Year,Delhi,False,2025-03-24,2025-05-13,31,18
+I00242,Finance Analyst Intern,Management,Assist in financial reporting and analysis,"ML, AI, CSS",Final Year,Hyderabad,True,2025-01-01,2025-02-07,20,15
+I00243,Web Dev Intern,Energy,Support HR operations and recruitment,"AI, React",CGPA >= 7.5,Bangalore,True,2025-04-28,2025-05-27,35,23
+I00244,Finance Analyst Intern,Healthcare,Work on ML models and data pipelines,"React, HTML",Any Year,Chennai,True,2025-03-08,2025-04-16,78,43
+I00245,Finance Analyst Intern,IT/AI,Contribute to AI and ML research projects,"HTML, Data Science, Python, Cloud",Any Year,Mumbai,True,2025-02-13,2025-03-06,87,18
+I00246,Data Science Intern,IT/AI,Develop frontend and backend web apps,"AI, Data Science, ML",CGPA >= 7.5,Chennai,True,2025-04-17,2025-05-18,53,21
+I00247,HR Intern,Education,Work on ML models and data pipelines,"ML, AI",Final Year,Kolkata,True,2025-04-23,2025-05-18,36,30
+I00248,Data Science Intern,Energy,Develop frontend and backend web apps,"Python, ML, Java, HTML",Final Year,Chennai,True,2025-06-02,2025-07-07,26,13
+I00249,Data Science Intern,IT/AI,Develop frontend and backend web apps,"CSS, SQL, Data Science, HTML",Final Year,Mumbai,True,2025-01-11,2025-02-07,99,83
+I00250,HR Intern,Finance,Support HR operations and recruitment,"Python, Cloud, AI, Java",CGPA >= 7.5,Bangalore,True,2025-07-12,2025-08-05,99,23
+I00251,Web Dev Intern,Energy,Support HR operations and recruitment,"React, ML",Any Year,Delhi,False,2025-06-27,2025-08-06,77,13
+I00252,Web Dev Intern,Education,Contribute to AI and ML research projects,"HTML, AI, Cloud, SQL",Any Year,Mumbai,False,2025-06-18,2025-07-13,31,30
+I00253,Data Science Intern,Education,Develop frontend and backend web apps,"Python, AI",CGPA >= 7.5,Delhi,False,2025-07-21,2025-08-22,36,25
+I00254,Data Science Intern,Healthcare,Work on ML models and data pipelines,"Data Science, Python, AI, Java",CGPA >= 7.5,Bangalore,True,2025-08-21,2025-09-10,58,23
+I00255,AI Research Intern,Education,Work on ML models and data pipelines,"Python, React, SQL, Cloud",Any Year,Mumbai,True,2025-03-17,2025-04-05,93,92
+I00256,Finance Analyst Intern,Finance,Contribute to AI and ML research projects,"SQL, React, Data Science, CSS",Any Year,Kolkata,False,2025-05-22,2025-06-16,23,11
+I00257,AI Research Intern,Management,Contribute to AI and ML research projects,"CSS, Python, React",Final Year,Mumbai,True,2025-05-24,2025-06-21,87,77
+I00258,AI Research Intern,IT/AI,Support HR operations and recruitment,"Data Science, SQL, Python",CGPA >= 7.5,Kolkata,True,2025-01-05,2025-03-02,74,71
+I00259,Data Science Intern,Management,Develop frontend and backend web apps,"Python, Data Science, SQL, Cloud",Any Year,Bangalore,False,2025-04-07,2025-06-04,99,78
+I00260,HR Intern,Management,Develop frontend and backend web apps,"CSS, Data Science, SQL",Any Year,Mumbai,False,2025-06-07,2025-06-26,92,61
+I00261,Data Science Intern,Healthcare,Work on ML models and data pipelines,"Python, Data Science, Cloud",CGPA >= 7.5,Delhi,True,2025-02-26,2025-04-14,69,61
+I00262,Finance Analyst Intern,Energy,Develop frontend and backend web apps,"CSS, Python, Cloud, AI",Any Year,Bangalore,True,2025-07-11,2025-08-11,75,70
+I00263,Finance Analyst Intern,Finance,Support HR operations and recruitment,"HTML, Java, Data Science",Final Year,Bangalore,True,2025-07-24,2025-09-20,86,61
+I00264,Finance Analyst Intern,Management,Support HR operations and recruitment,"Cloud, Python, Data Science",Final Year,Kolkata,True,2025-02-08,2025-03-03,25,18
+I00265,Finance Analyst Intern,Healthcare,Develop frontend and backend web apps,"Cloud, CSS, Python, AI",Any Year,Chennai,True,2025-07-28,2025-08-14,91,75
+I00266,AI Research Intern,Energy,Assist in financial reporting and analysis,"React, ML, Data Science, HTML",Any Year,Mumbai,True,2025-04-07,2025-05-12,49,47
+I00267,Finance Analyst Intern,Healthcare,Develop frontend and backend web apps,"React, HTML",CGPA >= 7.5,Kolkata,True,2025-01-28,2025-02-15,46,33
+I00268,Finance Analyst Intern,Finance,Contribute to AI and ML research projects,"Data Science, CSS",CGPA >= 7.5,Kolkata,False,2025-07-04,2025-08-09,86,77
+I00269,AI Research Intern,Education,Develop frontend and backend web apps,"AI, ML",Any Year,Kolkata,True,2025-03-13,2025-05-10,23,20
+I00270,AI Research Intern,Healthcare,Support HR operations and recruitment,"Data Science, HTML, Java, ML",Any Year,Kolkata,False,2025-04-06,2025-04-24,92,27
+I00271,AI Research Intern,IT/AI,Work on ML models and data pipelines,"HTML, Python, ML, Java",Final Year,Chennai,True,2025-03-07,2025-03-24,78,37
+I00272,AI Research Intern,IT/AI,Work on ML models and data pipelines,"CSS, Python",CGPA >= 7.5,Delhi,True,2025-04-26,2025-05-26,71,49
+I00273,Web Dev Intern,Management,Assist in financial reporting and analysis,"Python, AI",CGPA >= 7.5,Mumbai,False,2025-01-26,2025-02-10,48,17
+I00274,HR Intern,IT/AI,Contribute to AI and ML research projects,"AI, ML, Cloud",CGPA >= 7.5,Mumbai,False,2025-06-27,2025-08-08,64,48
+I00275,AI Research Intern,Management,Contribute to AI and ML research projects,"Cloud, ML, Java",Final Year,Chennai,True,2025-05-09,2025-06-29,80,17
+I00276,HR Intern,IT/AI,Contribute to AI and ML research projects,"Python, React, ML, HTML",Final Year,Mumbai,False,2025-02-04,2025-04-01,88,76
+I00277,Web Dev Intern,Finance,Work on ML models and data pipelines,"CSS, React, HTML, SQL",CGPA >= 7.5,Mumbai,False,2025-08-07,2025-09-10,88,37
+I00278,Data Science Intern,Energy,Work on ML models and data pipelines,"SQL, CSS",CGPA >= 7.5,Mumbai,False,2025-05-16,2025-06-27,69,45
+I00279,Finance Analyst Intern,Management,Assist in financial reporting and analysis,"HTML, ML, Python",CGPA >= 7.5,Bangalore,False,2025-03-02,2025-03-17,48,44
+I00280,Web Dev Intern,Energy,Contribute to AI and ML research projects,"CSS, SQL, ML",CGPA >= 7.5,Bangalore,False,2025-03-17,2025-04-09,44,19
+I00281,Data Science Intern,Education,Contribute to AI and ML research projects,"CSS, Data Science, ML, Java",Any Year,Chennai,True,2025-08-08,2025-09-22,27,25
+I00282,HR Intern,Management,Assist in financial reporting and analysis,"CSS, AI, Cloud",Final Year,Bangalore,True,2025-04-14,2025-05-15,76,66
+I00283,Finance Analyst Intern,Education,Work on ML models and data pipelines,"ML, Cloud",CGPA >= 7.5,Delhi,False,2025-04-02,2025-05-01,26,14
+I00284,Data Science Intern,Management,Work on ML models and data pipelines,"HTML, Data Science, Cloud, Python",CGPA >= 7.5,Chennai,False,2025-04-23,2025-05-27,41,15
+I00285,Data Science Intern,Energy,Assist in financial reporting and analysis,"Java, Python",Final Year,Hyderabad,False,2025-02-21,2025-04-22,72,68
+I00286,Web Dev Intern,Energy,Work on ML models and data pipelines,"React, Data Science",Any Year,Mumbai,False,2025-04-19,2025-06-10,51,36
+I00287,Web Dev Intern,Finance,Work on ML models and data pipelines,"React, CSS",Any Year,Delhi,True,2025-03-09,2025-05-08,78,23
+I00288,Finance Analyst Intern,Management,Contribute to AI and ML research projects,"CSS, AI, Cloud, SQL",CGPA >= 7.5,Chennai,True,2025-04-06,2025-05-01,22,15
+I00289,AI Research Intern,Education,Develop frontend and backend web apps,"HTML, React, SQL, CSS",CGPA >= 7.5,Mumbai,False,2025-06-22,2025-07-16,52,43
+I00290,Data Science Intern,Energy,Assist in financial reporting and analysis,"Java, React, Python, Cloud",CGPA >= 7.5,Kolkata,True,2025-07-26,2025-08-18,58,52
+I00291,Web Dev Intern,Management,Contribute to AI and ML research projects,"SQL, HTML, React, CSS",Any Year,Kolkata,True,2025-08-01,2025-09-19,87,23
+I00292,Web Dev Intern,Management,Assist in financial reporting and analysis,"AI, Data Science",Any Year,Delhi,True,2025-04-02,2025-05-28,53,43
+I00293,AI Research Intern,Education,Support HR operations and recruitment,"AI, HTML, React",Any Year,Chennai,False,2025-03-17,2025-05-02,72,51
+I00294,AI Research Intern,Energy,Contribute to AI and ML research projects,"Python, Cloud, AI, ML",Any Year,Bangalore,True,2025-02-15,2025-03-20,57,50
+I00295,AI Research Intern,IT/AI,Work on ML models and data pipelines,"CSS, HTML",Final Year,Mumbai,True,2025-01-10,2025-02-24,72,40
+I00296,Web Dev Intern,Healthcare,Support HR operations and recruitment,"Cloud, AI",Any Year,Bangalore,True,2025-02-25,2025-03-30,93,57
+I00297,Finance Analyst Intern,Management,Contribute to AI and ML research projects,"ML, SQL, CSS",Any Year,Chennai,True,2025-04-24,2025-06-16,20,16
+I00298,HR Intern,Energy,Support HR operations and recruitment,"ML, Java, AI",Any Year,Chennai,True,2025-05-04,2025-06-25,27,18
+I00299,HR Intern,Healthcare,Assist in financial reporting and analysis,"CSS, Python, Data Science",Any Year,Chennai,True,2025-07-05,2025-08-01,94,19
+I00300,Finance Analyst Intern,Finance,Develop frontend and backend web apps,"React, Java",Any Year,Bangalore,False,2025-02-28,2025-03-30,92,90
+I00301,AI Research Intern,Finance,Contribute to AI and ML research projects,"AI, SQL",Final Year,Bangalore,False,2025-03-25,2025-04-28,73,24
+I00302,HR Intern,Energy,Contribute to AI and ML research projects,"React, SQL, HTML, Cloud",CGPA >= 7.5,Bangalore,True,2025-08-20,2025-09-27,91,61
+I00303,Web Dev Intern,Finance,Support HR operations and recruitment,"HTML, Java, ML, Data Science",CGPA >= 7.5,Delhi,True,2025-02-17,2025-03-11,62,12
+I00304,Data Science Intern,Management,Work on ML models and data pipelines,"HTML, Cloud, AI, CSS",Any Year,Bangalore,False,2025-02-14,2025-04-04,95,44
+I00305,AI Research Intern,Finance,Support HR operations and recruitment,"Cloud, Data Science, HTML, ML",Final Year,Bangalore,True,2025-03-25,2025-04-28,94,32
+I00306,Data Science Intern,Healthcare,Support HR operations and recruitment,"SQL, Python",Any Year,Hyderabad,False,2025-05-03,2025-06-06,21,11
+I00307,Web Dev Intern,Education,Support HR operations and recruitment,"AI, ML, Data Science",Any Year,Hyderabad,False,2025-03-27,2025-05-18,43,21
+I00308,HR Intern,Management,Develop frontend and backend web apps,"SQL, AI, Data Science",CGPA >= 7.5,Bangalore,False,2025-08-18,2025-10-07,70,43
+I00309,Data Science Intern,Management,Work on ML models and data pipelines,"React, AI",Final Year,Delhi,True,2025-08-15,2025-09-10,91,89
+I00310,Data Science Intern,Education,Develop frontend and backend web apps,"HTML, ML",Any Year,Mumbai,False,2025-01-22,2025-03-14,71,49
+I00311,Finance Analyst Intern,Energy,Assist in financial reporting and analysis,"Python, Java",CGPA >= 7.5,Kolkata,False,2025-04-10,2025-06-03,44,25
+I00312,HR Intern,Management,Develop frontend and backend web apps,"Cloud, React, SQL, HTML",CGPA >= 7.5,Hyderabad,True,2025-01-09,2025-01-27,21,12
+I00313,Finance Analyst Intern,Finance,Develop frontend and backend web apps,"SQL, ML, Python, React",Any Year,Chennai,True,2025-07-05,2025-08-25,23,22
+I00314,HR Intern,Management,Contribute to AI and ML research projects,"Data Science, CSS, Cloud, AI",Any Year,Chennai,True,2025-06-11,2025-07-08,95,59
+I00315,Finance Analyst Intern,Education,Work on ML models and data pipelines,"Cloud, Java, ML",CGPA >= 7.5,Chennai,False,2025-07-15,2025-08-23,86,16
+I00316,Finance Analyst Intern,Energy,Assist in financial reporting and analysis,"Cloud, ML",CGPA >= 7.5,Kolkata,False,2025-06-16,2025-07-05,32,27
+I00317,Finance Analyst Intern,Healthcare,Develop frontend and backend web apps,"Data Science, Python",Any Year,Bangalore,False,2025-01-08,2025-02-20,57,57
+I00318,Finance Analyst Intern,Management,Contribute to AI and ML research projects,"AI, React, Cloud, Java",Any Year,Mumbai,False,2025-06-26,2025-08-06,24,24
+I00319,Finance Analyst Intern,Finance,Contribute to AI and ML research projects,"SQL, React, Cloud, Python",Any Year,Bangalore,False,2025-02-01,2025-03-07,46,17
+I00320,Web Dev Intern,Energy,Assist in financial reporting and analysis,"AI, HTML, CSS, SQL",CGPA >= 7.5,Kolkata,True,2025-05-18,2025-07-12,96,92
+I00321,Finance Analyst Intern,Healthcare,Develop frontend and backend web apps,"ML, Data Science, HTML",CGPA >= 7.5,Chennai,True,2025-05-17,2025-06-22,23,11
+I00322,Finance Analyst Intern,Healthcare,Contribute to AI and ML research projects,"React, Cloud, Java",Any Year,Delhi,True,2025-07-18,2025-08-12,85,56
+I00323,Finance Analyst Intern,Finance,Assist in financial reporting and analysis,"SQL, Cloud, Java, Python",Any Year,Delhi,False,2025-06-12,2025-07-09,68,56
+I00324,Finance Analyst Intern,IT/AI,Contribute to AI and ML research projects,"SQL, AI, ML",Final Year,Bangalore,False,2025-01-20,2025-03-16,40,39
+I00325,Data Science Intern,Education,Assist in financial reporting and analysis,"HTML, Cloud",Final Year,Bangalore,False,2025-06-21,2025-08-18,86,41
+I00326,Web Dev Intern,Education,Develop frontend and backend web apps,"CSS, AI",Final Year,Bangalore,False,2025-04-04,2025-04-25,49,24
+I00327,HR Intern,Management,Develop frontend and backend web apps,"Python, CSS, Data Science, Cloud",CGPA >= 7.5,Hyderabad,False,2025-05-08,2025-06-08,39,36
+I00328,Finance Analyst Intern,Finance,Develop frontend and backend web apps,"React, Java, Cloud",Any Year,Chennai,False,2025-02-02,2025-03-02,30,25
+I00329,Web Dev Intern,Management,Contribute to AI and ML research projects,"SQL, Data Science",CGPA >= 7.5,Mumbai,False,2025-02-07,2025-03-19,96,62
+I00330,Web Dev Intern,Healthcare,Work on ML models and data pipelines,"SQL, Python, Java, AI",Final Year,Mumbai,True,2025-05-13,2025-06-30,24,10
+I00331,Web Dev Intern,IT/AI,Develop frontend and backend web apps,"React, AI, CSS, SQL",Final Year,Hyderabad,False,2025-07-16,2025-08-05,80,11
+I00332,AI Research Intern,Finance,Contribute to AI and ML research projects,"Python, HTML, Java",Final Year,Mumbai,False,2025-03-13,2025-04-05,58,36
+I00333,Data Science Intern,IT/AI,Support HR operations and recruitment,"HTML, Cloud, AI",Any Year,Mumbai,False,2025-06-15,2025-07-22,56,44
+I00334,Finance Analyst Intern,Healthcare,Contribute to AI and ML research projects,"AI, CSS",CGPA >= 7.5,Hyderabad,False,2025-01-10,2025-03-05,61,50
+I00335,Data Science Intern,Management,Contribute to AI and ML research projects,"CSS, Cloud, React",CGPA >= 7.5,Mumbai,False,2025-03-02,2025-04-05,55,20
+I00336,AI Research Intern,Management,Contribute to AI and ML research projects,"Cloud, Java",Final Year,Delhi,True,2025-06-11,2025-08-01,92,52
+I00337,AI Research Intern,Management,Work on ML models and data pipelines,"Data Science, ML, AI",CGPA >= 7.5,Kolkata,False,2025-03-25,2025-04-29,57,15
+I00338,Finance Analyst Intern,Education,Work on ML models and data pipelines,"ML, Java, Python",CGPA >= 7.5,Kolkata,False,2025-07-13,2025-07-31,21,17
+I00339,Web Dev Intern,Energy,Work on ML models and data pipelines,"React, AI",Any Year,Chennai,True,2025-08-26,2025-10-23,72,58
+I00340,Finance Analyst Intern,Healthcare,Contribute to AI and ML research projects,"Data Science, HTML, Cloud",Final Year,Kolkata,False,2025-08-19,2025-10-14,63,47
+I00341,Finance Analyst Intern,Energy,Support HR operations and recruitment,"SQL, React, AI, Python",Final Year,Hyderabad,False,2025-05-21,2025-06-21,25,17
+I00342,Web Dev Intern,Education,Assist in financial reporting and analysis,"Python, HTML, Cloud",CGPA >= 7.5,Hyderabad,True,2025-04-24,2025-05-31,82,16
+I00343,AI Research Intern,Management,Contribute to AI and ML research projects,"SQL, Python, HTML",Final Year,Delhi,True,2025-06-07,2025-07-24,55,24
+I00344,Web Dev Intern,IT/AI,Contribute to AI and ML research projects,"Data Science, AI",Final Year,Kolkata,False,2025-03-19,2025-05-18,42,22
+I00345,HR Intern,Education,Contribute to AI and ML research projects,"React, Python, Java",CGPA >= 7.5,Kolkata,True,2025-01-19,2025-03-13,73,19
+I00346,AI Research Intern,Education,Develop frontend and backend web apps,"Data Science, Cloud",CGPA >= 7.5,Delhi,True,2025-08-04,2025-09-20,38,13
+I00347,AI Research Intern,Education,Contribute to AI and ML research projects,"Data Science, AI, SQL",Any Year,Chennai,True,2025-06-13,2025-07-12,29,17
+I00348,AI Research Intern,Healthcare,Assist in financial reporting and analysis,"ML, Java, Cloud",CGPA >= 7.5,Hyderabad,True,2025-06-11,2025-08-04,49,27
+I00349,AI Research Intern,Energy,Develop frontend and backend web apps,"ML, HTML, SQL, AI",CGPA >= 7.5,Hyderabad,True,2025-04-08,2025-05-29,65,25
+I00350,AI Research Intern,IT/AI,Support HR operations and recruitment,"ML, HTML, SQL",CGPA >= 7.5,Bangalore,False,2025-01-01,2025-01-16,85,60
+I00351,Data Science Intern,IT/AI,Develop frontend and backend web apps,"Python, HTML, React",Any Year,Mumbai,True,2025-08-14,2025-09-03,91,13
+I00352,Finance Analyst Intern,Energy,Support HR operations and recruitment,"Java, ML, Data Science",Final Year,Mumbai,True,2025-04-20,2025-05-30,77,35
+I00353,Web Dev Intern,Finance,Work on ML models and data pipelines,"Data Science, React",Final Year,Kolkata,False,2025-08-05,2025-08-30,64,48
+I00354,AI Research Intern,Finance,Contribute to AI and ML research projects,"Java, Cloud, React, CSS",CGPA >= 7.5,Mumbai,False,2025-06-17,2025-07-14,90,31
+I00355,AI Research Intern,Healthcare,Support HR operations and recruitment,"SQL, Java, Python, Data Science",Final Year,Delhi,True,2025-06-26,2025-08-11,30,22
+I00356,Finance Analyst Intern,IT/AI,Assist in financial reporting and analysis,"Cloud, CSS, HTML, AI",Final Year,Hyderabad,True,2025-01-23,2025-03-10,45,31
+I00357,Web Dev Intern,IT/AI,Support HR operations and recruitment,"ML, HTML",Final Year,Mumbai,False,2025-04-12,2025-05-08,53,38
+I00358,AI Research Intern,Energy,Assist in financial reporting and analysis,"Python, ML, Java, React",Final Year,Chennai,False,2025-02-02,2025-03-16,58,49
+I00359,Data Science Intern,Education,Develop frontend and backend web apps,"SQL, Java, ML, Cloud",Final Year,Hyderabad,False,2025-07-22,2025-09-10,72,43
+I00360,Web Dev Intern,Management,Develop frontend and backend web apps,"Python, Cloud",CGPA >= 7.5,Mumbai,True,2025-06-08,2025-07-01,20,12
+I00361,Data Science Intern,IT/AI,Support HR operations and recruitment,"React, HTML, SQL, ML",CGPA >= 7.5,Mumbai,False,2025-03-17,2025-05-05,30,26
+I00362,Data Science Intern,Healthcare,Work on ML models and data pipelines,"AI, Data Science",CGPA >= 7.5,Bangalore,False,2025-07-12,2025-07-31,83,52
+I00363,HR Intern,Management,Work on ML models and data pipelines,"CSS, AI",Final Year,Bangalore,True,2025-06-18,2025-08-10,22,21
+I00364,AI Research Intern,IT/AI,Work on ML models and data pipelines,"AI, CSS, ML",Final Year,Hyderabad,True,2025-04-03,2025-04-20,38,35
+I00365,Data Science Intern,Healthcare,Develop frontend and backend web apps,"ML, SQL",CGPA >= 7.5,Delhi,False,2025-06-11,2025-08-03,54,32
+I00366,Data Science Intern,Finance,Work on ML models and data pipelines,"Data Science, SQL, Python",Final Year,Kolkata,False,2025-07-16,2025-08-22,59,53
+I00367,HR Intern,Management,Assist in financial reporting and analysis,"Data Science, Python, AI, SQL",Final Year,Hyderabad,False,2025-07-28,2025-09-12,36,23
+I00368,Finance Analyst Intern,IT/AI,Assist in financial reporting and analysis,"Cloud, SQL",Any Year,Bangalore,False,2025-07-22,2025-09-10,26,15
+I00369,Data Science Intern,IT/AI,Contribute to AI and ML research projects,"ML, SQL",CGPA >= 7.5,Kolkata,True,2025-03-07,2025-04-15,46,37
+I00370,AI Research Intern,Healthcare,Support HR operations and recruitment,"Python, SQL",Final Year,Mumbai,True,2025-02-07,2025-03-15,60,16
+I00371,HR Intern,Energy,Contribute to AI and ML research projects,"Java, Data Science, AI, React",CGPA >= 7.5,Bangalore,True,2025-08-25,2025-09-27,87,71
+I00372,Finance Analyst Intern,Management,Support HR operations and recruitment,"HTML, Data Science, AI, Cloud",Final Year,Delhi,True,2025-04-27,2025-06-18,51,16
+I00373,Finance Analyst Intern,Energy,Develop frontend and backend web apps,"Java, AI, Python, Data Science",Any Year,Chennai,False,2025-03-27,2025-05-13,78,47
+I00374,Finance Analyst Intern,IT/AI,Assist in financial reporting and analysis,"CSS, Python, Cloud, SQL",Any Year,Mumbai,False,2025-04-08,2025-05-02,72,61
+I00375,Data Science Intern,Education,Assist in financial reporting and analysis,"React, Java, Cloud, AI",Final Year,Mumbai,True,2025-05-28,2025-07-01,31,11
+I00376,HR Intern,IT/AI,Support HR operations and recruitment,"Python, Cloud",Final Year,Mumbai,True,2025-04-17,2025-05-28,45,23
+I00377,AI Research Intern,Education,Assist in financial reporting and analysis,"Python, ML",CGPA >= 7.5,Kolkata,True,2025-05-28,2025-07-03,24,10
+I00378,Finance Analyst Intern,Energy,Develop frontend and backend web apps,"SQL, React, Cloud",Final Year,Mumbai,False,2025-07-08,2025-08-02,37,20
+I00379,Web Dev Intern,Healthcare,Develop frontend and backend web apps,"React, SQL, Python",Final Year,Bangalore,False,2025-06-12,2025-06-27,32,17
+I00380,HR Intern,Management,Work on ML models and data pipelines,"Python, CSS, AI",Final Year,Chennai,False,2025-03-05,2025-04-02,39,19
+I00381,Finance Analyst Intern,Management,Develop frontend and backend web apps,"CSS, SQL, ML, HTML",CGPA >= 7.5,Delhi,True,2025-07-14,2025-08-13,84,63
+I00382,HR Intern,Energy,Contribute to AI and ML research projects,"Cloud, AI",CGPA >= 7.5,Delhi,False,2025-05-28,2025-07-01,42,22
+I00383,Data Science Intern,Finance,Support HR operations and recruitment,"AI, Cloud, Python",Any Year,Chennai,True,2025-08-01,2025-09-14,51,40
+I00384,AI Research Intern,Energy,Assist in financial reporting and analysis,"HTML, React, Java, Python",Any Year,Chennai,True,2025-07-13,2025-08-18,75,70
+I00385,Finance Analyst Intern,Management,Assist in financial reporting and analysis,"AI, Python",Final Year,Mumbai,True,2025-06-13,2025-08-04,74,31
+I00386,Finance Analyst Intern,Management,Develop frontend and backend web apps,"SQL, Data Science, Python, HTML",Any Year,Chennai,True,2025-05-14,2025-07-13,26,17
+I00387,Web Dev Intern,Education,Work on ML models and data pipelines,"AI, CSS, HTML",CGPA >= 7.5,Mumbai,True,2025-08-03,2025-09-16,97,82
+I00388,Finance Analyst Intern,IT/AI,Support HR operations and recruitment,"Cloud, React, SQL",CGPA >= 7.5,Kolkata,False,2025-02-05,2025-03-29,24,24
+I00389,Finance Analyst Intern,Management,Develop frontend and backend web apps,"React, CSS",Final Year,Delhi,False,2025-06-04,2025-07-14,27,18
+I00390,HR Intern,IT/AI,Support HR operations and recruitment,"AI, Cloud",CGPA >= 7.5,Kolkata,False,2025-04-04,2025-05-12,33,26
+I00391,Data Science Intern,IT/AI,Work on ML models and data pipelines,"Data Science, ML, Java, AI",Final Year,Mumbai,False,2025-07-21,2025-09-01,71,70
+I00392,AI Research Intern,Finance,Work on ML models and data pipelines,"SQL, Data Science, Cloud, CSS",CGPA >= 7.5,Mumbai,False,2025-08-02,2025-09-15,84,49
+I00393,HR Intern,Healthcare,Develop frontend and backend web apps,"CSS, ML",Final Year,Kolkata,True,2025-04-13,2025-06-02,78,34
+I00394,AI Research Intern,Management,Develop frontend and backend web apps,"HTML, ML, Java",Final Year,Hyderabad,False,2025-05-07,2025-06-13,96,30
+I00395,AI Research Intern,Energy,Support HR operations and recruitment,"AI, ML, Cloud, Data Science",Final Year,Hyderabad,False,2025-07-07,2025-08-02,54,33
+I00396,AI Research Intern,Energy,Support HR operations and recruitment,"Java, SQL",Any Year,Chennai,True,2025-02-04,2025-03-26,69,15
+I00397,HR Intern,Management,Assist in financial reporting and analysis,"Python, CSS",CGPA >= 7.5,Hyderabad,True,2025-02-20,2025-03-16,59,16
+I00398,Web Dev Intern,Energy,Work on ML models and data pipelines,"ML, Cloud",CGPA >= 7.5,Chennai,True,2025-04-14,2025-06-10,54,12
+I00399,Web Dev Intern,Education,Support HR operations and recruitment,"Data Science, Cloud, AI",CGPA >= 7.5,Mumbai,False,2025-03-14,2025-04-09,66,55
+I00400,Finance Analyst Intern,Healthcare,Work on ML models and data pipelines,"ML, CSS",CGPA >= 7.5,Delhi,False,2025-01-07,2025-02-10,83,26
+I00401,Finance Analyst Intern,Education,Develop frontend and backend web apps,"ML, Data Science, SQL",Any Year,Delhi,True,2025-07-08,2025-08-06,61,59
+I00402,HR Intern,Management,Contribute to AI and ML research projects,"Python, Data Science, AI",Final Year,Bangalore,True,2025-02-25,2025-04-10,86,32
+I00403,Data Science Intern,Finance,Support HR operations and recruitment,"SQL, CSS",Final Year,Delhi,False,2025-07-14,2025-08-08,85,28
+I00404,Finance Analyst Intern,Healthcare,Develop frontend and backend web apps,"SQL, ML, Java",Any Year,Kolkata,False,2025-02-26,2025-03-29,63,28
+I00405,Finance Analyst Intern,Energy,Work on ML models and data pipelines,"SQL, Data Science",Any Year,Delhi,True,2025-02-26,2025-04-19,64,51
+I00406,Finance Analyst Intern,Finance,Work on ML models and data pipelines,"Java, Cloud",Final Year,Kolkata,True,2025-04-07,2025-04-23,49,33
+I00407,Web Dev Intern,Education,Develop frontend and backend web apps,"CSS, Python, SQL",Any Year,Kolkata,True,2025-08-15,2025-09-03,59,59
+I00408,Finance Analyst Intern,Finance,Work on ML models and data pipelines,"ML, Data Science, Python, Cloud",CGPA >= 7.5,Mumbai,True,2025-06-09,2025-08-06,66,25
+I00409,Finance Analyst Intern,Energy,Work on ML models and data pipelines,"Data Science, ML, CSS",Any Year,Bangalore,True,2025-06-03,2025-06-23,58,57
+I00410,HR Intern,Education,Assist in financial reporting and analysis,"ML, Cloud, Python, React",CGPA >= 7.5,Delhi,True,2025-05-28,2025-07-26,67,63
+I00411,Web Dev Intern,Finance,Assist in financial reporting and analysis,"Java, React",Final Year,Kolkata,True,2025-03-06,2025-03-27,20,18
+I00412,AI Research Intern,IT/AI,Assist in financial reporting and analysis,"SQL, Data Science, CSS, Python",CGPA >= 7.5,Kolkata,False,2025-06-22,2025-07-24,79,38
+I00413,Data Science Intern,Education,Support HR operations and recruitment,"AI, Cloud, Java, React",CGPA >= 7.5,Hyderabad,False,2025-06-02,2025-06-17,44,43
+I00414,Data Science Intern,Finance,Work on ML models and data pipelines,"React, Data Science, Java, ML",Any Year,Bangalore,True,2025-01-25,2025-02-17,37,31
+I00415,Data Science Intern,IT/AI,Work on ML models and data pipelines,"ML, CSS",Final Year,Delhi,True,2025-02-05,2025-03-01,28,26
+I00416,Finance Analyst Intern,Healthcare,Work on ML models and data pipelines,"Data Science, Python",CGPA >= 7.5,Hyderabad,True,2025-07-22,2025-08-11,67,44
+I00417,AI Research Intern,Finance,Develop frontend and backend web apps,"React, Data Science",Final Year,Mumbai,True,2025-08-07,2025-09-07,69,31
+I00418,Finance Analyst Intern,Education,Support HR operations and recruitment,"SQL, HTML",CGPA >= 7.5,Chennai,False,2025-01-14,2025-02-04,35,34
+I00419,Web Dev Intern,Education,Develop frontend and backend web apps,"Python, HTML, SQL, ML",Any Year,Kolkata,False,2025-04-25,2025-06-13,85,61
+I00420,AI Research Intern,IT/AI,Support HR operations and recruitment,"CSS, AI, Cloud",CGPA >= 7.5,Hyderabad,True,2025-03-19,2025-05-02,54,12
+I00421,Web Dev Intern,Energy,Contribute to AI and ML research projects,"Cloud, CSS",Final Year,Kolkata,True,2025-07-13,2025-08-12,86,46
+I00422,Data Science Intern,Finance,Assist in financial reporting and analysis,"HTML, AI, Data Science",CGPA >= 7.5,Hyderabad,False,2025-06-27,2025-07-31,86,36
+I00423,Finance Analyst Intern,Finance,Support HR operations and recruitment,"Data Science, HTML, React, ML",Any Year,Hyderabad,False,2025-02-10,2025-04-07,50,36
+I00424,Data Science Intern,Finance,Work on ML models and data pipelines,"Cloud, React, CSS",CGPA >= 7.5,Bangalore,True,2025-02-08,2025-03-26,24,17
+I00425,Data Science Intern,Healthcare,Contribute to AI and ML research projects,"Data Science, AI",Any Year,Hyderabad,True,2025-05-06,2025-05-21,79,20
+I00426,Data Science Intern,Education,Develop frontend and backend web apps,"SQL, ML",CGPA >= 7.5,Hyderabad,True,2025-08-28,2025-10-26,92,45
+I00427,Finance Analyst Intern,Energy,Develop frontend and backend web apps,"AI, Data Science, CSS",Any Year,Mumbai,False,2025-05-10,2025-07-06,94,19
+I00428,HR Intern,Finance,Assist in financial reporting and analysis,"Data Science, HTML, CSS, SQL",Final Year,Kolkata,False,2025-08-15,2025-10-04,51,21
+I00429,Data Science Intern,Healthcare,Contribute to AI and ML research projects,"ML, React",Final Year,Mumbai,False,2025-02-21,2025-03-12,27,10
+I00430,AI Research Intern,IT/AI,Work on ML models and data pipelines,"Python, Cloud, ML",Final Year,Delhi,False,2025-07-08,2025-08-25,23,16
+I00431,AI Research Intern,Energy,Support HR operations and recruitment,"ML, SQL, Cloud",Any Year,Hyderabad,False,2025-02-20,2025-04-08,62,47
+I00432,Web Dev Intern,Management,Support HR operations and recruitment,"Java, CSS",Final Year,Chennai,False,2025-02-17,2025-03-29,52,23
+I00433,Data Science Intern,IT/AI,Develop frontend and backend web apps,"SQL, ML",Any Year,Mumbai,True,2025-01-14,2025-03-06,88,59
+I00434,Data Science Intern,Finance,Develop frontend and backend web apps,"React, Data Science, Python, Cloud",CGPA >= 7.5,Delhi,True,2025-08-25,2025-09-15,81,32
+I00435,AI Research Intern,Healthcare,Support HR operations and recruitment,"Python, ML",Any Year,Chennai,False,2025-07-06,2025-08-29,81,20
+I00436,Data Science Intern,Management,Assist in financial reporting and analysis,"Cloud, Python, Java, SQL",Final Year,Mumbai,False,2025-05-19,2025-06-05,29,10
+I00437,HR Intern,Education,Support HR operations and recruitment,"Java, Data Science",CGPA >= 7.5,Mumbai,False,2025-01-03,2025-01-18,49,49
+I00438,AI Research Intern,Finance,Work on ML models and data pipelines,"React, AI, Data Science, CSS",CGPA >= 7.5,Mumbai,False,2025-04-08,2025-05-23,41,28
+I00439,Data Science Intern,Management,Support HR operations and recruitment,"SQL, React, Cloud",Any Year,Chennai,False,2025-06-10,2025-07-16,56,24
+I00440,Data Science Intern,IT/AI,Assist in financial reporting and analysis,"ML, HTML, CSS",Final Year,Chennai,True,2025-03-25,2025-04-25,49,13
+I00441,HR Intern,Management,Assist in financial reporting and analysis,"Python, ML, HTML, Data Science",CGPA >= 7.5,Mumbai,False,2025-07-28,2025-09-18,37,23
+I00442,HR Intern,IT/AI,Develop frontend and backend web apps,"SQL, CSS",Any Year,Kolkata,False,2025-08-24,2025-10-21,41,34
+I00443,Web Dev Intern,Healthcare,Support HR operations and recruitment,"HTML, Data Science, SQL",Final Year,Chennai,False,2025-02-21,2025-03-20,48,11
+I00444,Web Dev Intern,Energy,Contribute to AI and ML research projects,"AI, ML, CSS, Java",CGPA >= 7.5,Kolkata,False,2025-02-24,2025-03-30,95,56
+I00445,Data Science Intern,Education,Contribute to AI and ML research projects,"AI, CSS",Any Year,Kolkata,True,2025-04-13,2025-05-17,50,15
+I00446,Data Science Intern,Energy,Assist in financial reporting and analysis,"React, HTML",Any Year,Hyderabad,False,2025-08-04,2025-10-01,59,32
+I00447,Web Dev Intern,IT/AI,Work on ML models and data pipelines,"CSS, AI, Cloud, ML",CGPA >= 7.5,Chennai,False,2025-05-09,2025-07-02,61,52
+I00448,AI Research Intern,IT/AI,Develop frontend and backend web apps,"Cloud, ML, AI, Java",Final Year,Delhi,True,2025-01-26,2025-03-01,50,17
+I00449,Finance Analyst Intern,Healthcare,Support HR operations and recruitment,"React, SQL",Any Year,Bangalore,True,2025-04-07,2025-05-06,97,55
+I00450,AI Research Intern,Education,Assist in financial reporting and analysis,"AI, Cloud, Python",Any Year,Kolkata,True,2025-03-09,2025-04-15,21,19
+I00451,AI Research Intern,IT/AI,Develop frontend and backend web apps,"Cloud, AI",Final Year,Kolkata,True,2025-06-06,2025-07-10,95,33
+I00452,Web Dev Intern,Healthcare,Work on ML models and data pipelines,"HTML, Python, React",Any Year,Delhi,False,2025-03-04,2025-04-09,95,50
+I00453,HR Intern,Education,Support HR operations and recruitment,"Cloud, CSS, Data Science, AI",Final Year,Hyderabad,False,2025-07-04,2025-07-23,55,46
+I00454,AI Research Intern,IT/AI,Assist in financial reporting and analysis,"Python, HTML, Data Science",CGPA >= 7.5,Delhi,True,2025-03-09,2025-04-24,33,19
+I00455,Finance Analyst Intern,Management,Work on ML models and data pipelines,"Java, CSS, Cloud, SQL",Final Year,Kolkata,True,2025-07-22,2025-08-28,82,74
+I00456,Finance Analyst Intern,Healthcare,Develop frontend and backend web apps,"CSS, HTML, SQL, AI",Any Year,Hyderabad,False,2025-07-11,2025-09-01,57,48
+I00457,Finance Analyst Intern,Finance,Support HR operations and recruitment,"SQL, React, Data Science, HTML",Any Year,Delhi,True,2025-08-27,2025-09-19,33,11
+I00458,HR Intern,IT/AI,Develop frontend and backend web apps,"ML, SQL",CGPA >= 7.5,Bangalore,False,2025-07-13,2025-09-10,46,20
+I00459,Web Dev Intern,Management,Support HR operations and recruitment,"Cloud, Data Science, Python, ML",Final Year,Kolkata,False,2025-03-09,2025-04-05,86,35
+I00460,Finance Analyst Intern,IT/AI,Assist in financial reporting and analysis,"Java, SQL, AI",Final Year,Bangalore,False,2025-08-12,2025-09-21,94,70
+I00461,Data Science Intern,Energy,Develop frontend and backend web apps,"Java, Data Science",Any Year,Hyderabad,True,2025-05-25,2025-06-28,81,24
+I00462,Data Science Intern,Healthcare,Assist in financial reporting and analysis,"Data Science, Python, Java, SQL",Final Year,Delhi,False,2025-04-21,2025-05-10,69,11
+I00463,Data Science Intern,Healthcare,Work on ML models and data pipelines,"ML, HTML, Python, AI",Any Year,Kolkata,True,2025-04-27,2025-06-10,82,77
+I00464,Finance Analyst Intern,Management,Assist in financial reporting and analysis,"Cloud, CSS",Any Year,Kolkata,False,2025-04-28,2025-06-10,64,59
+I00465,Finance Analyst Intern,Healthcare,Work on ML models and data pipelines,"Data Science, React",Final Year,Hyderabad,False,2025-05-01,2025-05-24,30,14
+I00466,Finance Analyst Intern,Healthcare,Support HR operations and recruitment,"AI, SQL",CGPA >= 7.5,Chennai,True,2025-07-28,2025-08-23,92,42
+I00467,Finance Analyst Intern,Education,Develop frontend and backend web apps,"Python, React",Any Year,Kolkata,True,2025-08-11,2025-10-06,74,43
+I00468,Web Dev Intern,Management,Work on ML models and data pipelines,"Data Science, CSS",CGPA >= 7.5,Chennai,False,2025-07-11,2025-09-09,56,35
+I00469,HR Intern,IT/AI,Develop frontend and backend web apps,"React, AI, HTML",Final Year,Bangalore,False,2025-06-09,2025-07-04,63,52
+I00470,HR Intern,Management,Develop frontend and backend web apps,"Data Science, Cloud, Python",CGPA >= 7.5,Kolkata,False,2025-03-22,2025-05-18,48,34
+I00471,Finance Analyst Intern,Energy,Assist in financial reporting and analysis,"CSS, React, Python, ML",Any Year,Chennai,False,2025-06-15,2025-07-26,46,10
+I00472,Finance Analyst Intern,Energy,Work on ML models and data pipelines,"SQL, CSS, AI, Python",Any Year,Hyderabad,True,2025-08-10,2025-09-18,40,39
+I00473,Web Dev Intern,Finance,Support HR operations and recruitment,"SQL, Python, Java",Any Year,Kolkata,False,2025-08-25,2025-10-24,23,22
+I00474,HR Intern,Healthcare,Assist in financial reporting and analysis,"HTML, SQL, ML",Final Year,Bangalore,True,2025-07-17,2025-09-03,70,45
+I00475,Web Dev Intern,Education,Contribute to AI and ML research projects,"ML, Cloud, Java, CSS",Final Year,Hyderabad,True,2025-04-27,2025-06-04,40,13
+I00476,Data Science Intern,IT/AI,Assist in financial reporting and analysis,"SQL, CSS, Python, Cloud",CGPA >= 7.5,Mumbai,False,2025-03-11,2025-03-26,52,25
+I00477,Data Science Intern,Energy,Support HR operations and recruitment,"Data Science, Cloud",CGPA >= 7.5,Bangalore,True,2025-02-26,2025-04-10,78,40
+I00478,AI Research Intern,Education,Assist in financial reporting and analysis,"CSS, AI, Python, HTML",Final Year,Mumbai,True,2025-03-20,2025-04-24,72,15
+I00479,AI Research Intern,IT/AI,Work on ML models and data pipelines,"Python, Cloud",Final Year,Hyderabad,False,2025-02-10,2025-03-17,28,16
+I00480,Web Dev Intern,Healthcare,Develop frontend and backend web apps,"Cloud, Java",Any Year,Chennai,False,2025-01-21,2025-03-03,80,52
+I00481,Data Science Intern,Education,Work on ML models and data pipelines,"HTML, AI, React, Python",Final Year,Delhi,True,2025-08-08,2025-09-21,97,69
+I00482,HR Intern,Energy,Contribute to AI and ML research projects,"SQL, Python",CGPA >= 7.5,Delhi,True,2025-04-28,2025-06-09,65,46
+I00483,AI Research Intern,Healthcare,Support HR operations and recruitment,"Cloud, Python",Any Year,Delhi,False,2025-04-16,2025-05-10,49,26
+I00484,HR Intern,Education,Contribute to AI and ML research projects,"CSS, SQL, React",CGPA >= 7.5,Hyderabad,True,2025-04-06,2025-04-27,59,24
+I00485,Data Science Intern,Healthcare,Support HR operations and recruitment,"Data Science, AI, SQL, Python",Final Year,Mumbai,True,2025-08-02,2025-09-22,62,18
+I00486,Data Science Intern,IT/AI,Work on ML models and data pipelines,"Java, HTML, Data Science",Any Year,Mumbai,False,2025-04-10,2025-06-04,92,38
+I00487,Finance Analyst Intern,Healthcare,Contribute to AI and ML research projects,"SQL, Cloud, CSS, AI",Final Year,Bangalore,True,2025-04-22,2025-05-20,51,12
+I00488,Data Science Intern,IT/AI,Develop frontend and backend web apps,"Java, ML, AI, CSS",Any Year,Hyderabad,True,2025-01-03,2025-01-27,95,18
+I00489,Web Dev Intern,Education,Support HR operations and recruitment,"Python, SQL",Any Year,Hyderabad,True,2025-03-12,2025-03-31,71,63
+I00490,HR Intern,IT/AI,Assist in financial reporting and analysis,"ML, Java, Data Science",Final Year,Chennai,False,2025-01-04,2025-02-06,90,87
+I00491,Data Science Intern,Finance,Contribute to AI and ML research projects,"React, Data Science",Final Year,Chennai,True,2025-06-22,2025-08-21,42,34
+I00492,Web Dev Intern,Energy,Support HR operations and recruitment,"AI, Cloud, React",Any Year,Mumbai,False,2025-06-12,2025-07-20,36,31
+I00493,Web Dev Intern,Finance,Assist in financial reporting and analysis,"SQL, Cloud",Any Year,Kolkata,True,2025-04-07,2025-05-17,31,21
+I00494,HR Intern,Education,Contribute to AI and ML research projects,"HTML, Cloud, AI, Python",CGPA >= 7.5,Hyderabad,False,2025-08-20,2025-10-10,49,24
+I00495,HR Intern,Finance,Assist in financial reporting and analysis,"Python, ML, Java, HTML",CGPA >= 7.5,Mumbai,False,2025-03-23,2025-04-27,43,33
+I00496,Finance Analyst Intern,Healthcare,Contribute to AI and ML research projects,"Java, React",Final Year,Delhi,True,2025-03-16,2025-05-10,79,63
+I00497,AI Research Intern,Education,Contribute to AI and ML research projects,"React, SQL, Java, CSS",Final Year,Hyderabad,False,2025-06-24,2025-08-10,52,14
+I00498,Data Science Intern,Healthcare,Support HR operations and recruitment,"CSS, React",Any Year,Kolkata,True,2025-05-20,2025-07-19,61,36
+I00499,HR Intern,Healthcare,Contribute to AI and ML research projects,"AI, SQL, Java",CGPA >= 7.5,Chennai,False,2025-05-22,2025-06-28,58,40
+I00500,AI Research Intern,Management,Assist in financial reporting and analysis,"React, SQL, Cloud",Final Year,Chennai,True,2025-02-10,2025-04-09,34,22
