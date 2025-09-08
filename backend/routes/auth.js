@@ -10,8 +10,12 @@ router.post('/login', (req, res) => {
         return res.status(400).json({ message: 'Student ID and password are required' });
     }
     
-    const query = 'SELECT * FROM students WHERE id = ? AND password = ?';
-    db.query(query, [studentId, password], (err, results) => {
+    // Default password for all students
+    const defaultPassword = 'pass@123';
+    //const actualPassword = password === defaultPassword ? defaultPassword : password;
+    
+    const query = 'SELECT student_id,age, degree, year_of_study, passing_year, cgpa, skills, location FROM students WHERE student_id = ?';
+    db.query(query, [studentId, defaultPassword], (err, results) => {
         if (err) {
             console.error('Database error:', err);
             return res.status(500).json({ message: 'Internal server error' });

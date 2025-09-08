@@ -8,7 +8,7 @@ router.get('/recommend/:student_id', (req, res) => {
     const { location, mode, stipend } = req.query;
     
     // First get student profile
-    const studentQuery = 'SELECT skills, course, year FROM students WHERE id = ?';
+    const studentQuery = 'SELECT skills, course, year, cgpa, passing_year FROM students WHERE id = ?';
     db.query(studentQuery, [studentId], (err, studentResults) => {
         if (err) {
             console.error('Database error:', err);
@@ -25,9 +25,9 @@ router.get('/recommend/:student_id', (req, res) => {
         // Build base query for internships
         let internshipQuery = `
             SELECT * FROM internships 
-            WHERE course_year LIKE ? AND status = 'Active'
+            WHERE status = 'Active'
         `;
-        let queryParams = [`%${student.course}%`];
+        let queryParams = [];
         
         // Add filters
         if (location) {
@@ -62,19 +62,39 @@ router.get('/recommend/:student_id', (req, res) => {
                     internshipSkills.some(is => is.includes(skill) || skill.includes(is))
                 ).length;
                 
-                // Check year eligibility
-                const yearEligible = internship.course_year.includes(student.year);
+                // Check eligibility criteria
+                let eligibilityScore = 0;
+                if (internship.eligibility) {
+                    const eligibilityCriteria = internship.eligibility.toLowerCase();
+                    
+                    // Check if student's course is mentioned in eligibility
+                    if (student.course && eligibilityCriteria.includes(student.course.toLowerCase())) {
+                        eligibilityScore += 2;
+                    }
+                    
+                    // Check if student's year is mentioned in eligibility
+                    if (student.year && eligibilityCriteria.includes(`year ${student.year}`)) {
+                        eligibilityScore += 1;
+                    }
+                    
+                    // Check if student's CGPA meets requirements
+                    if (student.cgpa && eligibilityCriteria.includes('cgpa')) {
+                        const cgpaMatch = eligibilityCriteria.match(/cgpa[\s\S]*?(\d+\.\d+)/);
+                        if (cgpaMatch && student.cgpa >= parseFloat(cgpaMatch[1])) {
+                            eligibilityScore += 2;
+                        }
+                    }
+                }
                 
-                // Calculate total score (skill overlap + year eligibility)
-                const score = skillOverlap + (yearEligible ? 1 : 0);
+                // Calculate total score
+                const score = skillOverlap + eligibilityScore;
                 
                 return { ...internship, score };
             });
             
-            // Sort by score (descending) and get top 5
+            // Sort by score (descending) and get top recommendations
             const recommendedInternships = scoredInternships
-                .sort((a, b) => b.score - a.score)
-                .slice(0, 5);
+                .sort((a, b) => b.score - a.score);
             
             res.json(recommendedInternships);
         });

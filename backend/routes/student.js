@@ -6,7 +6,7 @@ const router = express.Router();
 router.get('/student/:id', (req, res) => {
     const studentId = req.params.id;
     
-    const query = 'SELECT id, name, email, course, year, skills, preferences FROM students WHERE id = ?';
+    const query = 'SELECT id, name, email, age, course, year, passing_year, cgpa, skills, location, preferences, resume_path FROM students WHERE id = ?';
     db.query(query, [studentId], (err, results) => {
         if (err) {
             console.error('Database error:', err);
