@@ -3,112 +3,212 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internships - AI Internship Recommendation Engine</title>
-    <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Your custom CSS -->
-<link rel="stylesheet" href="css/style.css">
-<script>// Add this to the top of each page's JavaScript
-document.addEventListener('DOMContentLoaded', function() {
-    const studentId = localStorage.getItem('studentId');
-    const authToken = localStorage.getItem('authToken');
-    
-    if (!studentId || !authToken) {
-        window.location.href = 'index.html';
-        return;
-    }
-    
-    // Rest of your page initialization code
-});
-// Add to your dashboard.js and other pages
-document.getElementById('logoutBtn').addEventListener('click', function() {
-    localStorage.removeItem('studentId');
-    localStorage.removeItem('authToken');
-    window.location.href = 'index.html';
-});</script>
+    <title>Find Internships - AI Internship System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #4361ee;
+            --primary-gradient: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+            --secondary: #7209b7;
+            --light: #f8f9fa;
+            --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        body {
+            font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        .navbar {
+            background: var(--primary-gradient) !important;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .main-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .page-header, .filter-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--card-shadow);
+        }
+        .page-header h1 {
+            color: var(--primary);
+            font-weight: 700;
+        }
+        .internship-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+            transition: var(--transition);
+            /* CHANGE 2: The margin-bottom property is removed from here */
+            border-left: 5px solid var(--primary);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .internship-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+        .card-body { padding: 1.5rem; flex-grow: 1; }
+        .card-title { color: var(--primary); font-weight: 600; }
+        .card-footer { background: var(--light); padding: 1rem 1.5rem; }
+        .deadline { font-weight: 500; color: #dc3545; }
+        .btn-apply { background: var(--primary-gradient); color: white; border: none; padding: 0.5rem 1.2rem; border-radius: 50px; font-weight: 500; }
+        #loadingIndicator, #noResultsMessage { text-align: center; padding: 3rem; font-size: 1.5rem; color: var(--primary); }
+        .details-list { list-style: none; padding: 0; }
+        .details-list li { margin-bottom: 0.5rem; color: #6c757d; }
+        .details-list i { width: 20px; text-align: center; margin-right: 0.5rem; color: var(--secondary); }
+    </style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">AI Internship Recommender</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand" href="#"><i class="fas fa-brain me-2"></i>InternMatch AI</a>
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="dashboard.html">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="internships.html">Internships</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" id="logoutBtn">Logout</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="internships.html">Internships</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="logoutBtn">Logout</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Internship Search Section -->
-    <div class="container py-4">
-        <h1 class="mb-4">Find Your Internship</h1>
-        
-        <!-- Filters -->
-        <div class="card mb-4">
-            <div class="card-body">
-                <h5 class="card-title">Filter Internships</h5>
-                <form id="filterForm">
-                    <div class="row">
-                        <div class="col-md-4 mb-3">
-                            <label for="location" class="form-label">Location</label>
-                            <select class="form-select" id="location">
-                                <option value="">Any Location</option>
-                                <option value="Remote">Remote</option>
-                                <option value="Hybrid">Hybrid</option>
-                                <option value="On-site">On-site</option>
-                            </select>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <label for="mode" class="form-label">Work Mode</label>
-                            <select class="form-select" id="mode">
-                                <option value="">Any Mode</option>
-                                <option value="Remote">Remote</option>
-                                <option value="Hybrid">Hybrid</option>
-                                <option value="On-site">On-site</option>
-                            </select>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <label for="stipend" class="form-label">Stipend</label>
-                            <select class="form-select" id="stipend">
-                                <option value="">Any Stipend</option>
-                                <option value="Paid">Paid</option>
-                                <option value="Unpaid">Unpaid</option>
-                            </select>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Apply Filters</button>
-                </form>
-            </div>
+    <div class="main-container">
+        <div class="page-header text-center">
+            <h1><i class="fas fa-search"></i> Find Your Perfect Internship</h1>
+            <p class="text-muted">Your recommendations are ranked based on your skills.</p>
         </div>
-        
-        <!-- Results -->
-        <h3 class="mb-3">Recommended Internships</h3>
-        <div id="internshipResults" class="row">
-            <!-- Internship cards will be dynamically inserted here -->
+
+        <div class="filter-section">
+            <form id="filterForm" class="row g-3 align-items-end">
+                <div class="col-md-4">
+                    <label for="locationFilter" class="form-label">Location</label>
+                    <input type="text" class="form-control" id="locationFilter" placeholder="e.g., Delhi, Mumbai">
+                </div>
+                <div class="col-md-3">
+                    <label for="sectorFilter" class="form-label">Sector</label>
+                    <input type="text" class="form-control" id="sectorFilter" placeholder="e.g., IT, Finance">
+                </div>
+                <div class="col-md-3">
+                    <label for="typeFilter" class="form-label">Internship Type</label>
+                    <select id="typeFilter" class="form-select">
+                        <option value="">Any Type</option>
+                        <option value="Remote">Remote</option>
+                        <option value="On-site">On-site</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100"><i class="fas fa-filter me-2"></i>Filter</button>
+                </div>
+            </form>
         </div>
+
+        <div id="loadingIndicator"><div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div></div>
+        <div id="noResultsMessage" style="display: none;"><h3><i class="fas fa-inbox"></i> No Internships Found</h3></div>
         
-        <div id="noResults" class="alert alert-info d-none">
-            No internships match your criteria. Try adjusting your filters.
-        </div>
+        <div class="row g-4" id="internshipList"></div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/internships.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const studentId = localStorage.getItem('studentId');
+            if (!studentId) {
+                window.location.href = 'index.html';
+                return;
+            }
+            
+            document.getElementById('logoutBtn').addEventListener('click', (e) => {
+                e.preventDefault();
+                localStorage.clear();
+                window.location.href = 'index.html';
+            });
+
+            const filterForm = document.getElementById('filterForm');
+            const internshipList = document.getElementById('internshipList');
+            const loadingIndicator = document.getElementById('loadingIndicator');
+            const noResultsMessage = document.getElementById('noResultsMessage');
+
+            async function fetchInternships(filters = {}) {
+                loadingIndicator.style.display = 'block';
+                internshipList.innerHTML = '';
+                noResultsMessage.style.display = 'none';
+
+                const queryParams = new URLSearchParams(filters).toString();
+                const url = `/api/recommend/${studentId}?${queryParams}`;
+
+                try {
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        throw new Error(`Server responded with status: ${response.status}`);
+                    }
+                    const internships = await response.json();
+                    renderInternships(internships);
+                } catch (error) {
+                    console.error('Fetch Error:', error);
+                    internshipList.innerHTML = `<div class="col-12"><p class="text-danger text-center">Could not load internships. Check the browser console (F12) for more details.</p></div>`;
+                } finally {
+                    loadingIndicator.style.display = 'none';
+                }
+            }
+
+            function renderInternships(internships) {
+                if (!internships || internships.length === 0) {
+                    noResultsMessage.style.display = 'block';
+                    return;
+                }
+
+                internships.forEach(internship => {
+                    const deadline = internship.deadline ? new Date(internship.deadline).toLocaleDateString('en-GB') : 'N/A';
+                    const internshipType = internship.remote_allowed ? 'Remote' : 'On-site';
+                    const typeIcon = internship.remote_allowed ? 'fa-house-user' : 'fa-building';
+
+                    const card = `
+                        <div class="col-lg-4 col-md-6">
+                            <div class="internship-card">
+                                <div class="card-body">
+                                    <h5 class="card-title">${internship.title || 'N/A'}</h5>
+                                    <ul class="details-list mt-3">
+                                        <li><i class="fas fa-map-marker-alt"></i> ${internship.location || 'N/A'}</li>
+                                        <li><i class="fas fa-briefcase"></i> ${internship.sector || 'N/A'}</li>
+                                        <li><i class="fas ${typeIcon}"></i> ${internshipType}</li>
+                                    </ul>
+                                    <p class="mt-3"><strong>Skills:</strong> ${internship.required_skills || 'Not specified'}</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between align-items-center">
+                                    <span class="deadline"><i class="far fa-calendar-times"></i> ${deadline}</span>
+                                    <a href="#" class="btn btn-sm btn-apply disabled">Apply Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    internshipList.innerHTML += card;
+                });
+            }
+
+            filterForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const location = document.getElementById('locationFilter').value.trim();
+                const sector = document.getElementById('sectorFilter').value.trim();
+                const type = document.getElementById('typeFilter').value;
+                
+                const filters = {};
+                if (location) filters.location = location;
+                if (sector) filters.sector = sector;
+                if (type) filters.type = type;
+
+                fetchInternships(filters);
+            });
+
+            // Initial load
+            fetchInternships();
+        });
+    </script>
 </body>
 </html>

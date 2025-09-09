@@ -57,6 +57,7 @@
         .features {
             list-style: none;
             margin-top: 20px;
+            padding-left: 0;
         }
         
         .features li {
@@ -181,12 +182,7 @@
                 height: auto;
                 width: 90%;
             }
-            
-            .left-panel {
-                padding: 30px;
-            }
-            
-            .right-panel {
+            .left-panel, .right-panel {
                 padding: 30px;
             }
         }
@@ -197,7 +193,6 @@
         <div class="left-panel">
             <h2 style="color: white;"><b>AI-Powered Internship Recommendations</b></h2>
             <p>Login to access personalized internship opportunities matched to your skills and preferences.</p>
-            
             <ul class="features">
                 <li><i class="fas fa-robot"></i> AI-based recommendations</li>
                 <li><i class="fas fa-filter"></i> Advanced filtering options</li>
@@ -211,30 +206,20 @@
                 <i class="fas fa-brain"></i>
                 <h1>InternMatch AI</h1>
             </div>
-            
             <h2>Student Login</h2>
-            
             <form id="loginForm">
                 <div class="form-group">
                     <label for="studentId">Student ID</label>
                     <input type="text" id="studentId" placeholder="Enter your student ID" required>
                 </div>
-                
                 <div class="form-group">
                     <label for="password">Password</label>
                     <input type="password" id="password" placeholder="Enter your password" required>
                     <p class="password-info">Default password: pass@123</p>
                 </div>
-                
                 <button type="submit" class="btn">Login</button>
-                
-                <div class="error-message" id="errorMessage">
-                    Invalid student ID or password. Please try again.
-                </div>
-                
-                <div class="success-message" id="successMessage">
-                    Login successful! Redirecting to dashboard...
-                </div>
+                <div class="error-message" id="errorMessage">Invalid student ID or password. Please try again.</div>
+                <div class="success-message" id="successMessage">Login successful! Redirecting...</div>
             </form>
         </div>
     </div>
@@ -249,72 +234,52 @@
             const successElement = document.getElementById('successMessage');
             const btn = document.querySelector('.btn');
             
-            // Hide previous messages
             errorElement.style.display = 'none';
             successElement.style.display = 'none';
             
-            // Simple validation
             if (!studentId || !password) {
                 errorElement.textContent = 'Please enter both student ID and password.';
                 errorElement.style.display = 'block';
                 return;
             }
             
-            // Show loading state
             btn.textContent = 'Logging in...';
             btn.disabled = true;
             
             try {
-                // Make API call to your backend
-                const response = await fetch('http://localhost:3000/api/login', {
+                // Assuming backend is running on the same domain or proxied.
+                // For local dev, use full URL like 'http://localhost:3000/api/login'
+                const response = await fetch('/api/login', {
                     method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
+                    headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ studentId, password })
                 });
                 
                 const data = await response.json();
                 
                 if (response.ok && data.message === 'Login successful') {
-                    // Show success message
                     successElement.style.display = 'block';
                     
-                    // Store student ID in localStorage
-                    localStorage.setItem('studentId', studentId);
-                    localStorage.setItem('studentData', JSON.stringify(data.student));
+                    // Store student ID and the full student data object
+                    localStorage.setItem('studentId', data.student.student_id);
+                    localStorage.setItem('studentData', JSON.stringify(data)); // Store the whole object
                     
-                    // Redirect to dashboard after a brief delay
                     setTimeout(() => {
                         window.location.href = 'dashboard.html';
                     }, 1500);
                 } else {
-                    // Show error message from server or default message
                     errorElement.textContent = data.message || 'Invalid credentials. Please try again.';
                     errorElement.style.display = 'block';
-                    
-                    // Reset button
                     btn.textContent = 'Login';
                     btn.disabled = false;
                 }
             } catch (error) {
                 console.error('Login error:', error);
-                errorElement.textContent = 'Network error. Please try again.';
+                errorElement.textContent = 'Network error. Please check your connection or if the server is running.';
                 errorElement.style.display = 'block';
-                
-                // Reset button
                 btn.textContent = 'Login';
                 btn.disabled = false;
             }
-        });
-        
-        // Clear error when user starts typing
-        document.getElementById('studentId').addEventListener('input', function() {
-            document.getElementById('errorMessage').style.display = 'none';
-        });
-        
-        document.getElementById('password').addEventListener('input', function() {
-            document.getElementById('errorMessage').style.display = 'none';
         });
     </script>
 </body>

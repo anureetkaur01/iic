@@ -120,6 +120,8 @@
         
         .card-features {
             margin-bottom: 1.5rem;
+            list-style: none;
+            padding-left: 0;
         }
         
         .card-features li {
@@ -144,6 +146,7 @@
             text-align: center;
             display: block;
             width: 100%;
+            text-decoration: none;
         }
         
         .btn-card:hover {
@@ -226,14 +229,8 @@
         
         /* Animation */
         @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
         
         .animate {
@@ -245,7 +242,6 @@
             .cards-container {
                 grid-template-columns: 1fr;
             }
-            
             .dashboard-container {
                 padding: 0 1rem;
             }
@@ -253,11 +249,10 @@
     </style>
 </head>
 <body>
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <i class="fas fa-brain me-2"></i>AI Internship Recommender
+                <i class="fas fa-brain me-2"></i>InternMatch AI
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -281,17 +276,13 @@
         </div>
     </nav>
 
-    <!-- Dashboard Content -->
     <div class="dashboard-container">
-        <!-- Welcome Section -->
         <div class="welcome-section animate">
             <h1>Welcome back, <span id="studentName">Student</span>!</h1>
             <p>Your personalized internship dashboard is ready. Explore opportunities tailored just for you.</p>
         </div>
         
-        <!-- Main Cards -->
         <div class="cards-container">
-            <!-- Profile Card -->
             <div class="dashboard-card profile-card animate" style="animation-delay: 0.2s;">
                 <div class="card-header">
                     <i class="fas fa-user-graduate"></i>
@@ -299,21 +290,18 @@
                 </div>
                 <div class="card-body">
                     <p>View and manage your personal information, academic details, skills, and resume. Keep your profile updated to get the best internship recommendations.</p>
-                    
                     <ul class="card-features">
                         <li><i class="fas fa-check-circle"></i> View personal information</li>
                         <li><i class="fas fa-check-circle"></i> Update academic details</li>
                         <li><i class="fas fa-check-circle"></i> Manage skills & preferences</li>
                         <li><i class="fas fa-check-circle"></i> Upload or view resume</li>
                     </ul>
-                    
                     <a href="student-profile.html" class="btn-card">
                         <i class="fas fa-external-link-alt me-2"></i>Open Profile
                     </a>
                 </div>
             </div>
             
-            <!-- Internship Card -->
             <div class="dashboard-card internship-card animate" style="animation-delay: 0.4s;">
                 <div class="card-header">
                     <i class="fas fa-briefcase"></i>
@@ -321,14 +309,12 @@
                 </div>
                 <div class="card-body">
                     <p>Discover personalized internship opportunities based on your skills, preferences, and career goals. Use advanced filters to find your perfect match.</p>
-                    
                     <ul class="card-features">
                         <li><i class="fas fa-check-circle"></i> AI-powered recommendations</li>
                         <li><i class="fas fa-check-circle"></i> Advanced filtering options</li>
                         <li><i class="fas fa-check-circle"></i> Save favorite internships</li>
                         <li><i class="fas fa-check-circle"></i> One-click applications</li>
                     </ul>
-                    
                     <a href="internships.html" class="btn-card">
                         <i class="fas fa-external-link-alt me-2"></i>Search Internships
                     </a>
@@ -336,38 +322,26 @@
             </div>
         </div>
         
-        <!-- Statistics Section -->
         <div class="stats-section animate" style="animation-delay: 0.6s;">
             <h2><i class="fas fa-chart-line me-2"></i>Internship Insights</h2>
             <div class="stats-grid">
                 <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
+                    <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
                     <div class="stat-number" id="totalInternships">127</div>
                     <div class="stat-label">Total Internships</div>
                 </div>
-                
                 <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-check-circle"></i>
-                    </div>
+                    <div class="stat-icon"><i class="fas fa-check-circle"></i></div>
                     <div class="stat-number" id="activeInternships">89</div>
                     <div class="stat-label">Active Internships</div>
                 </div>
-                
                 <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-laptop"></i>
-                    </div>
+                    <div class="stat-icon"><i class="fas fa-laptop"></i></div>
                     <div class="stat-number" id="remoteInternships">45</div>
                     <div class="stat-label">Remote Opportunities</div>
                 </div>
-                
                 <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-money-bill-wave"></i>
-                    </div>
+                    <div class="stat-icon"><i class="fas fa-money-bill-wave"></i></div>
                     <div class="stat-number" id="paidInternships">67</div>
                     <div class="stat-label">Paid Internships</div>
                 </div>
@@ -384,55 +358,44 @@
         document.addEventListener('DOMContentLoaded', function() {
             // Check if user is logged in
             const studentId = localStorage.getItem('studentId');
-            const studentData = localStorage.getItem('studentData');
+            const studentDataString = localStorage.getItem('studentData');
             
             if (!studentId) {
-                window.location.href = 'login.html';
+                window.location.href = 'index.html';
                 return;
             }
             
-            // Parse student data if available
-            let student = null;
-            if (studentData) {
+            // Parse student data to display name
+            if (studentDataString) {
                 try {
-                    student = JSON.parse(studentData);
-                    document.getElementById('studentName').textContent = student.name;
+                    const studentData = JSON.parse(studentDataString);
+                    // The backend nests the student object, so access it via studentData.student
+                    if (studentData && studentData.student && studentData.student.name) {
+                        document.getElementById('studentName').textContent = studentData.student.name;
+                    }
                 } catch (e) {
                     console.error('Error parsing student data:', e);
                 }
             }
             
             // Logout functionality
-            const logoutBtn = document.getElementById('logoutBtn');
-            if (logoutBtn) {
-                logoutBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    localStorage.removeItem('studentId');
-                    localStorage.removeItem('studentData');
-                    localStorage.removeItem('authToken');
-                    window.location.href = 'login.html';
-                });
-            }
+            document.getElementById('logoutBtn').addEventListener('click', function(e) {
+                e.preventDefault();
+                localStorage.clear(); // Clears all items from localStorage
+                window.location.href = 'index.html';
+            });
             
             // Add click effects to cards
-            const cards = document.querySelectorAll('.dashboard-card');
-            cards.forEach(card => {
+            document.querySelectorAll('.dashboard-card').forEach(card => {
+                card.style.cursor = 'pointer';
                 card.addEventListener('click', function(e) {
+                    // Navigate only if not clicking on the button itself
                     if (!e.target.closest('a')) {
                         const link = this.querySelector('a');
                         if (link) {
                             window.location.href = link.href;
                         }
                     }
-                });
-                
-                // Add hover effect
-                card.addEventListener('mouseenter', function() {
-                    this.style.cursor = 'pointer';
-                });
-                
-                card.addEventListener('mouseleave', function() {
-                    this.style.cursor = 'default';
                 });
             });
         });
