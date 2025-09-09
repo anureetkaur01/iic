@@ -3,18 +3,262 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - AI Internship Recommendation Engine</title>
-   <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Your custom CSS -->
-<link rel="stylesheet" href="css/style.css">
+    <title>Student Dashboard - AI Internship System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #4361ee;
+            --primary-gradient: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+            --secondary: #7209b7;
+            --accent: #f72585;
+            --success: #4cc9f0;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            color: #333;
+            padding-bottom: 2rem;
+        }
+        
+        .navbar {
+            background: var(--primary-gradient) !important;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .dashboard-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        
+        .welcome-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--card-shadow);
+            text-align: center;
+        }
+        
+        .welcome-section h1 {
+            color: var(--primary);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .welcome-section p {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+        
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .dashboard-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+            transition: var(--transition);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .dashboard-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-header {
+            background: var(--primary-gradient);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .card-header i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        
+        .card-header h3 {
+            font-weight: 600;
+            margin: 0;
+        }
+        
+        .card-body {
+            padding: 2rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .card-body p {
+            color: #6c757d;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+        
+        .card-features {
+            margin-bottom: 1.5rem;
+        }
+        
+        .card-features li {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .card-features i {
+            color: var(--primary);
+            margin-right: 0.5rem;
+        }
+        
+        .btn-card {
+            background: var(--primary-gradient);
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 500;
+            transition: var(--transition);
+            text-align: center;
+            display: block;
+            width: 100%;
+        }
+        
+        .btn-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(67, 97, 238, 0.3);
+            color: white;
+        }
+        
+        .profile-card {
+            border-top: 5px solid var(--primary);
+        }
+        
+        .internship-card {
+            border-top: 5px solid var(--success);
+        }
+        
+        .internship-card .card-header {
+            background: linear-gradient(135deg, #4cc9f0 0%, #4895ef 100%);
+        }
+        
+        .stats-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: var(--card-shadow);
+            margin-bottom: 2rem;
+        }
+        
+        .stats-section h2 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 10px;
+            background: #f8f9fa;
+            transition: var(--transition);
+        }
+        
+        .stat-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stat-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .stat-label {
+            color: #6c757d;
+            font-weight: 500;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: #6c757d;
+        }
+        
+        /* Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate {
+            animation: fadeIn 0.8s ease forwards;
+        }
+        
+        /* Responsive */
+        @media (max-width: 900px) {
+            .cards-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .dashboard-container {
+                padding: 0 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">AI Internship Recommender</a>
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-brain me-2"></i>AI Internship Recommender
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,6 +271,9 @@
                         <a class="nav-link active" href="dashboard.html">Dashboard</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="internships.html">Internships</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#" id="logoutBtn">Logout</a>
                     </li>
                 </ul>
@@ -35,64 +282,160 @@
     </nav>
 
     <!-- Dashboard Content -->
-    <div class="container py-4">
-        <h1 class="mb-4">Student Dashboard</h1>
+    <div class="dashboard-container">
+        <!-- Welcome Section -->
+        <div class="welcome-section animate">
+            <h1>Welcome back, <span id="studentName">Student</span>!</h1>
+            <p>Your personalized internship dashboard is ready. Explore opportunities tailored just for you.</p>
+        </div>
         
-        <ul class="nav nav-tabs" id="dashboardTabs" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab">Profile</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="internship-tab" data-bs-toggle="tab" data-bs-target="#internship" type="button" role="tab">Search Internship</button>
-            </li>
-        </ul>
-        
-        <div class="tab-content p-3 border border-top-0 rounded-bottom" id="dashboardTabContent">
-            <!-- Profile Tab -->
-            <div class="tab-pane fade show active" id="profile" role="tabpanel">
-                <h3 class="mb-4">Student Profile</h3>
-                <form id="profileForm">
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label for="name" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" id="name" readonly>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" readonly>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label for="course" class="form-label">Course</label>
-                            <input type="text" class="form-control" id="course" readonly>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="year" class="form-label">Year</label>
-                            <input type="text" class="form-control" id="year" readonly>
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="skills" class="form-label">Skills</label>
-                        <textarea class="form-control" id="skills" rows="3" readonly></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <label for="preferences" class="form-label">Preferences</label>
-                        <textarea class="form-control" id="preferences" rows="3" readonly></textarea>
-                    </div>
-                </form>
+        <!-- Main Cards -->
+        <div class="cards-container">
+            <!-- Profile Card -->
+            <div class="dashboard-card profile-card animate" style="animation-delay: 0.2s;">
+                <div class="card-header">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>Student Profile</h3>
+                </div>
+                <div class="card-body">
+                    <p>View and manage your personal information, academic details, skills, and resume. Keep your profile updated to get the best internship recommendations.</p>
+                    
+                    <ul class="card-features">
+                        <li><i class="fas fa-check-circle"></i> View personal information</li>
+                        <li><i class="fas fa-check-circle"></i> Update academic details</li>
+                        <li><i class="fas fa-check-circle"></i> Manage skills & preferences</li>
+                        <li><i class="fas fa-check-circle"></i> Upload or view resume</li>
+                    </ul>
+                    
+                    <a href="student-profile.html" class="btn-card">
+                        <i class="fas fa-external-link-alt me-2"></i>Open Profile
+                    </a>
+                </div>
             </div>
             
-            <!-- Internship Tab -->
-            <div class="tab-pane fade" id="internship" role="tabpanel">
-                <h3 class="mb-4">Find Your Perfect Internship</h3>
-                <p>Click the button below to search for internships that match your profile and preferences.</p>
-                <a href="internships.html" class="btn btn-primary btn-lg">Find Internships</a>
+            <!-- Internship Card -->
+            <div class="dashboard-card internship-card animate" style="animation-delay: 0.4s;">
+                <div class="card-header">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Find Internships</h3>
+                </div>
+                <div class="card-body">
+                    <p>Discover personalized internship opportunities based on your skills, preferences, and career goals. Use advanced filters to find your perfect match.</p>
+                    
+                    <ul class="card-features">
+                        <li><i class="fas fa-check-circle"></i> AI-powered recommendations</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced filtering options</li>
+                        <li><i class="fas fa-check-circle"></i> Save favorite internships</li>
+                        <li><i class="fas fa-check-circle"></i> One-click applications</li>
+                    </ul>
+                    
+                    <a href="internships.html" class="btn-card">
+                        <i class="fas fa-external-link-alt me-2"></i>Search Internships
+                    </a>
+                </div>
             </div>
         </div>
+        
+        <!-- Statistics Section -->
+        <div class="stats-section animate" style="animation-delay: 0.6s;">
+            <h2><i class="fas fa-chart-line me-2"></i>Internship Insights</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="stat-number" id="totalInternships">127</div>
+                    <div class="stat-label">Total Internships</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="stat-number" id="activeInternships">89</div>
+                    <div class="stat-label">Active Internships</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="stat-number" id="remoteInternships">45</div>
+                    <div class="stat-label">Remote Opportunities</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <div class="stat-number" id="paidInternships">67</div>
+                    <div class="stat-label">Paid Internships</div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="animate" style="animation-delay: 0.8s;">
+            <p>AI Internship Recommendation System © 2023 | PM Internship Scheme</p>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/dashboard.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if user is logged in
+            const studentId = localStorage.getItem('studentId');
+            const studentData = localStorage.getItem('studentData');
+            
+            if (!studentId) {
+                window.location.href = 'login.html';
+                return;
+            }
+            
+            // Parse student data if available
+            let student = null;
+            if (studentData) {
+                try {
+                    student = JSON.parse(studentData);
+                    document.getElementById('studentName').textContent = student.name;
+                } catch (e) {
+                    console.error('Error parsing student data:', e);
+                }
+            }
+            
+            // Logout functionality
+            const logoutBtn = document.getElementById('logoutBtn');
+            if (logoutBtn) {
+                logoutBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    localStorage.removeItem('studentId');
+                    localStorage.removeItem('studentData');
+                    localStorage.removeItem('authToken');
+                    window.location.href = 'login.html';
+                });
+            }
+            
+            // Add click effects to cards
+            const cards = document.querySelectorAll('.dashboard-card');
+            cards.forEach(card => {
+                card.addEventListener('click', function(e) {
+                    if (!e.target.closest('a')) {
+                        const link = this.querySelector('a');
+                        if (link) {
+                            window.location.href = link.href;
+                        }
+                    }
+                });
+                
+                // Add hover effect
+                card.addEventListener('mouseenter', function() {
+                    this.style.cursor = 'pointer';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.cursor = 'default';
+                });
+            });
+        });
+    </script>
 </body>
 </html>

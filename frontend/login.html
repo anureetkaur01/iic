@@ -9,6 +9,25 @@
 
 <!-- Your custom CSS -->
 <link rel="stylesheet" href="css/style.css">
+<script>// Add this to the top of each page's JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+    const studentId = localStorage.getItem('studentId');
+    const authToken = localStorage.getItem('authToken');
+    
+    if (!studentId || !authToken) {
+        window.location.href = 'index.html';
+        return;
+    }
+    
+    // Rest of your page initialization code
+});
+// Add to your dashboard.js and other pages
+document.getElementById('logoutBtn').addEventListener('click', function() {
+    localStorage.removeItem('studentId');
+    localStorage.removeItem('authToken');
+    window.location.href = 'index.html';
+});
+</script>
 </head>
 <body class="bg-light">
     <!-- Navbar -->

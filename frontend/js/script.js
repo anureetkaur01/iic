@@ -22,3 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+// Add to your dashboard.js and other pages
+/*document.getElementById('logoutBtn').addEventListener('click', function() {
+    localStorage.removeItem('studentId');
+    localStorage.removeItem('authToken');
+    window.location.href = 'index.html';
+});*/
